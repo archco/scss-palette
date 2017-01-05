@@ -2,11 +2,11 @@
 @import '../src/palette';
 
 .black {
-  color: map-get($Palette, "white");
-  background-color: map-get($Palette, "black");
+  color: getColor('white');
+  background-color: getColor('red', #000);
 }
 
 .white {
-  color: map-get($Palette, "black");
-  background-color: map-get($Palette, "white");
+  color: getColor('black');
+  background-color: getColor('green');
 }

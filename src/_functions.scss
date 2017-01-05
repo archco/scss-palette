@@ -1,0 +1,16 @@
+//======================================================================
+// scss-palette functions
+//======================================================================
+
+@function getColor($name, $default: null) {
+  $color: map-get($Color-maps, $name);
+  @if $color == null {
+    @if $default != null { @return $default; }
+    @else {
+      @warn "#{$name} color is not exist in color-maps.";
+      @return $default;
+    }
+  } @else {
+    @return $color;
+  }
+}
