@@ -1,0 +1,26 @@
+{
+  "name": "scss-palette",
+  "version": "0.1.0",
+  "description": "The color palette for SCSS.",
+  "main": "src/palette.scss",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archco/scss-palette.git"
+  },
+  "author": "Cosmos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/archco/scss-palette/issues"
+  },
+  "homepage": "https://github.com/archco/scss-palette#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+
+@import '../src/palette';
+
+.black {
+  color: map-get($Palette, "white");
+  background-color: map-get($Palette, "black");
+}
+
+.white {
+  color: map-get($Palette, "black");
+  background-color: map-get($Palette, "white");
+}
