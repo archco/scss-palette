@@ -4,11 +4,13 @@
 @import 'maps/white';
 @import 'maps/gray';
 @import 'maps/black';
+@import 'maps/red';
 
 $color-palette-maps : (
   "white": $shades-of-white,
   "black": $shades-of-black,
   "gray": $shades-of-gray,
+  "red": $shades-of-red,
 );
 
 $color-palette: generatePalette();
