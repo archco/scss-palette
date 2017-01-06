@@ -2,8 +2,11 @@
 // scss-palette functions
 //======================================================================
 
+// get color from palette
+// @param string $name
+// @param color  $default default color
 @function getColor($name, $default: null) {
-  $color: map-get($Color-maps, $name);
+  $color: map-get($color-palette, $name);
   @if $color == null {
     @if $default != null { @return $default; }
     @else {
@@ -13,4 +16,12 @@
   } @else {
     @return $color;
   }
+}
+
+@function generatePalette() {
+  $p: ();
+  @each $k, $m in $color-maps {
+    $p: map-merge($p, $m);
+  }
+  @return $p;
 }

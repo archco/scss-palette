@@ -1,8 +1,10 @@
 //======================================================================
 // Color-maps
 //======================================================================
+@import 'maps/gray';
 
-$Color-maps : (
-  "black": #000000,
-  "white": #FFFFFF,
+$color-maps : (
+  "gray": $shades-of-gray,
 );
+
+$color-palette: generatePalette();
