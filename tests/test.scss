@@ -2,11 +2,11 @@
 @import '../src/palette';
 
 .black {
-  color: getColor('white');
-  background-color: getColor('raisinblack');
+  color: palette('white');
+  background-color: palette('raisinblack');
 }
 
 .white {
-  color: getColor('black');
-  background-color: getColor('snow');
+  color: palette('black');
+  background-color: palette('snow');
 }

@@ -3,9 +3,10 @@
 //======================================================================
 
 // get color from palette
-// @param string $name
-// @param color  $default default color
-@function getColor($name, $default: null) {
+// @param  string $name
+// @param  color  $default default color
+// @return color
+@function palette($name, $default: null) {
   $color: map-get($color-palette, $name);
   @if $color == null {
     @if $default != null { @return $default; }
@@ -18,9 +19,11 @@
   }
 }
 
+// generate palette maps
+// @return maps
 @function generatePalette() {
   $p: ();
-  @each $k, $m in $color-maps {
+  @each $k, $m in $color-palette-maps {
     $p: map-merge($p, $m);
   }
   @return $p;
