@@ -1,5 +1,5 @@
 //======================================================================
-// SCSS-Palette
+// scss-palette
 //======================================================================
 
 @import 'functions';
@@ -10,7 +10,7 @@
 @import 'colors/green';
 @import 'colors/blue';
 
-$color-palette-maps : (
+$palette-colors : (
   "white": $shades-of-white,
   "black": $shades-of-black,
   "gray": $shades-of-gray,
@@ -19,5 +19,5 @@ $color-palette-maps : (
   "blue": $shades-of-blue,
 );
 
-$color-palette: generatePalette();
-/*! scss-palette | https://github.com/archco/scss-palette | #{length($color-palette)} colors */
+$palette: generatePalette();
+/*! scss-palette | https://github.com/archco/scss-palette | #{length($palette)} colors */

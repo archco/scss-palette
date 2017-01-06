@@ -8,7 +8,7 @@
 // @return color
 @function palette($name, $default: null) {
   $name: to-lower-case($name);
-  $color: map-get($color-palette, $name);
+  $color: map-get($palette, $name);
   @if $color == null {
     @if $default != null { @return $default; }
     @else {
@@ -24,7 +24,7 @@
 // @return maps
 @function generatePalette() {
   $p: ();
-  @each $k, $m in $color-palette-maps {
+  @each $k, $m in $palette-colors {
     $p: map-merge($p, $m);
   }
   @return $p;
