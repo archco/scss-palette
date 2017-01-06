@@ -1,8 +1,6 @@
 
 @import '../src/palette';
 
-$l: length($color-palette);
-/* length of palette: #{$l}*/
 .black {
   color: palette('white');
   background-color: palette('raisinblack');

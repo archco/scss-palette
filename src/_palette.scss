@@ -3,4 +3,21 @@
 //======================================================================
 
 @import 'functions';
-@import 'color-maps';
+@import 'colors/white';
+@import 'colors/gray';
+@import 'colors/black';
+@import 'colors/red';
+@import 'colors/green';
+@import 'colors/blue';
+
+$color-palette-maps : (
+  "white": $shades-of-white,
+  "black": $shades-of-black,
+  "gray": $shades-of-gray,
+  "red": $shades-of-red,
+  "green": $shades-of-green,
+  "blue": $shades-of-blue,
+);
+
+$color-palette: generatePalette();
+/*! scss-palette | https://github.com/archco/scss-palette | #{length($color-palette)} colors */
