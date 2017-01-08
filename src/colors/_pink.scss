@@ -1,5 +1,6 @@
 //======================================================================
 // Shades of pink
+// @links https://en.wikipedia.org/wiki/Shades_of_pink
 //======================================================================
 
 $shades-of-pink: (
@@ -31,6 +32,7 @@ $shades-of-pink: (
   "mimipink": #FFDAE9,
   "tangopink": #E4717A,
   "congopink": #F88379,
+  "coralpink": #F88379, // same as "congopink"
   "pastelpink": #DEA5A4,
   "newyorkpink": #D7837F,
   "solidpink": #893843,
@@ -50,4 +52,8 @@ $shades-of-pink: (
   "shockingpink": #FC0FC0,
   "superpink": #CF6BA9,
   "steelpink": #CC33CC,
+
+  // Web colors
+  "palevioletred": #DB7093,
+  "mediumvioletred": #C71585,
 );

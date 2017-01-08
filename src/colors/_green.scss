@@ -7,13 +7,15 @@ $shades-of-green: (
   "lime": #00FF00,
   "green": #008000,
   "darkgreen": #006400,
+
   // Additional definitions
   "pigmentgreen": #00A550, // CMYK
   "naturalgreen": #009F6B, // NCS
   "munsellgreen": #00A877, // Munsell
   "pantonegreen": #00AD83, // Pantone
   "crayolagreen": #1CAC78, // Crayola
-  // Shades of green
+
+  // Variations
   "armygreen": #4B5320,
   "bottlegreen": #006A4E,
   "brightgreen": #66FF00,
@@ -49,6 +51,7 @@ $shades-of-green: (
   "seagreen": #2E8B57,
   "spanishgreen": #009150,
   "upforestgreen": #014421, // University of the Philippines
+
   // Green in nature
   "artichoke": #8F9779,
   "artichokegreen": #4B6F44,
@@ -71,6 +74,7 @@ $shades-of-green: (
   "shamrockgreen": #009E60,
   "teagreen": #D0F0C0,
   "teal": #008080,
+
   // olive colors
   // @links https://en.wikipedia.org/wiki/Olive_(color)
   "olive": #808000,
@@ -79,4 +83,17 @@ $shades-of-green: (
   "olivedrabcamouflage": #544F3D,
   "darkolivegreen": #556B2F,
   "blackolive": #3B3C36,
+
+  // Web colors
+  "chartreuse": #7FFF00,
+  "lawngreen": #7CFC00,
+  "limegreen": #32CD32,
+  "palegreen": #98FB98,
+  "mediumspringgreen": #00FA9A,
+  "springgreen": #00FF7F,
+  "mediumseagreen": #3CB371,
+  "yellowgreen": #9ACD32,
+  "mediumaquamarine": #66CDAA,
+  "darkseagreen": #8FBC8F,
+  "lightseagreen": #20B2AA,
 );

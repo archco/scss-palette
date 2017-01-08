@@ -5,13 +5,15 @@
 
 $shades-of-blue: (
   "blue": #0000FF,
+
   // Additional definitions
   "pigmentblue": #333399, // CMYK
   "naturalblue": #0087BD, // NCS
   "munsellblue": #0093AF, // Munsell
   "pantoneblue": #0018A8, // Pantone
   "crayolablue": #1F75FE, // Crayola
-  // Shades of blue
+
+  // Variations
   "mediumblue": #0000CD,
   "spanishblue": #0070BB,
   "liberty": #545AA7,
@@ -23,14 +25,15 @@ $shades-of-blue: (
   "midnightblue": #191970,
   "independence": #4C516D,
   "spacecadet": #1D2951,
+
   // tints of blue
   "babyblue": #89CFF0,
   "lightblue": #ADD8E6,
   "periwinkle": #CCCCFF,
   "powderblue": #B0E0E6,
   "morningblue": #8DA399,
-  // css color
-  // @links http://www.w3schools.com/colors/colors_groups.asp
+
+  // Web colors
   "cadetblue": #5F9EA0,
   "steelblue": #4682B4,
   "lightsteelblue": #B0C4DE,

@@ -5,13 +5,15 @@
 
 $shades-of-red: (
   "red": #FF0000,
+
   // Additional definitions
   "pigmentred": #ED1C24, // CMYK red
   "naturalred": #C40233, // NCS red
   "munsellred": #F2003C, // Munsell Color Wheel
   "pantonered": #ED2939, // Pantone
   "crayolared": #EE204D, // Crayola
-  // shades of red
+
+  // variations
   "scarlet": #FF2400,
   "imperialred": #ED2939,
   "indianred": #CD5C5C,
@@ -33,9 +35,10 @@ $shades-of-red: (
   "maroon": #800000,
   "barnred": #7C0A02,
   "turkeyred": #A91101,
-  // tints of red
-  "pink": #FFC0CB,
-  "salmonpink": #FF91A4,
-  "coralpink": #F88379,
+
+  // Web colors
+  "lightsalmon": #FFA07A,
   "salmon": #FA8072,
+  "darksalmon": #E9967A,
+  "lightcoral": #F08080,
 );
