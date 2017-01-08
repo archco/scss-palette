@@ -9,6 +9,7 @@
 @import 'colors/red';
 @import 'colors/green';
 @import 'colors/blue';
+@import 'colors/orange';
 
 $palette-colors : (
   "white": $shades-of-white,
@@ -17,7 +18,9 @@ $palette-colors : (
   "red": $shades-of-red,
   "green": $shades-of-green,
   "blue": $shades-of-blue,
+  "orange": $shades-of-orange,
 );
 
 $palette: generatePalette();
+
 /*! scss-palette | https://github.com/archco/scss-palette | #{length($palette)} colors */
