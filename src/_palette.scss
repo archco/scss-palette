@@ -12,6 +12,7 @@
 @import 'colors/orange';
 @import 'colors/yellow';
 @import 'colors/purple';
+@import 'colors/brown';
 
 $palette-colors : (
   "white": $shades-of-white,
@@ -23,6 +24,7 @@ $palette-colors : (
   "orange": $shades-of-orange,
   "yellow": $shades-of-yellow,
   "purple": $shades-of-purple,
+  "brown": $shades-of-brown,
 );
 
 $palette: generatePalette();
