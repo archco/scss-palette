@@ -29,3 +29,10 @@
   }
   @return $p;
 }
+
+// get color map
+// @param  string $name
+// @return maps
+@function paletteGetColor($name) {
+  @return map-get($palette-colors, $name);
+}
