@@ -33,7 +33,9 @@ $palette-colors : (
 
 $palette: generatePalette();
 
-/*! scss-palette | https://github.com/archco/scss-palette | #{length($palette)} colors */
+/*! scss-palette v0.1.0 | https://github.com/archco/scss-palette | #{length($palette)} colors */
+$info: "";
 @each $key, $value in $palette-colors {
-  /* #{$key} - #{length($value)} */
+  $info: $info + $key + ": " + length($value) + " | ";
 }
+/* #{$info} */
