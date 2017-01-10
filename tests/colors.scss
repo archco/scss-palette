@@ -1,0 +1,22 @@
+@import '../src/palette';
+
+$colors: map-keys($palette-colors);
+
+/*{*/
+@each $k in $colors {
+  $color: map-get($palette-colors, $k);
+  /*  "#{$k}": {*/
+  @each $name, $value in $color {
+    @if $name == nth(map-keys($color), length($color)) {
+      /*    "#{$name}": "#{$value}"*/
+    } @else {
+      /*    "#{$name}": "#{$value}",*/
+    }
+  }
+  @if $k == nth($colors, length($colors)) {
+    /*  }*/
+  } @else {
+    /*  },*/
+  }
+}
+/*}*/

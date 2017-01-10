@@ -21,6 +21,8 @@
   "homepage": "https://github.com/archco/scss-palette#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
     "gulp-sass": "^3.0.0"
   }
 }
