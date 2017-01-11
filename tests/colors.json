@@ -56,7 +56,18 @@
     "battleshipgray": "#848482",
     "gunmetal": "#2A3439",
     "nickel": "#727472",
-    "charcoal": "#36454F"
+    "charcoal": "#36454F",
+    "coolgray": "#8C92AC",
+    "cadetgray": "#91A3B0",
+    "bluegray": "#6699CC",
+    "glaucous": "#6082B6",
+    "slategray": "#708090",
+    "graygreen": "#5E716A",
+    "marengo": "#4C5866",
+    "rosequartz": "#AA98A9",
+    "cinereous": "#98817B",
+    "rocketmetallic": "#8A7F8D",
+    "taupe": "#483C32"
   },
   "red": {
     "red": "#FF0000",
