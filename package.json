@@ -1,8 +1,8 @@
 {
   "name": "scss-palette",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "The color palette for SCSS.",
-  "main": "src/palette.scss",
+  "main": "src/_palette.scss",
   "directories": {
     "test": "tests"
   },
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/archco/scss-palette.git"
   },
-  "author": "Cosmos",
+  "author": "archco",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/archco/scss-palette/issues"
