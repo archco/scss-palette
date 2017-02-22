@@ -10,8 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run sass && npm run json",
     "sass": "node node_modules/node-sass/bin/node-sass tests/test.scss tests/test.css",
+    "sass:watch": "npm run sass && npm run sass -- --watch",
     "json": "node node_modules/node-sass/bin/node-sass tests/colors.scss tests/colors.css",
-    "postjson": "node tests/make-json"
+    "postjson": "node tests/convert-to-json"
   },
   "repository": {
     "type": "git",
@@ -24,10 +25,6 @@
   },
   "homepage": "https://github.com/archco/scss-palette#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.5.4",
-    "gulp-sass": "^3.0.0",
     "node-sass": "^4.5.0",
     "replace-in-file": "^2.4.0"
   }
