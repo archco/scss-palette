@@ -21,7 +21,7 @@ https://archco.github.io/scss-palette/
 https://github.com/archco/scss-palette/wiki/functions
 
 ## Change Log
-[CHANGELOG.md](https://github.com/archco/scss-palette/blob/master/README.md)
+[CHANGELOG.md](https://github.com/archco/scss-palette/blob/master/CHANGELOG.md)
 
 ## License
 [MIT](https://github.com/archco/scss-palette/blob/master/LICENSE) License.
