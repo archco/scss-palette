@@ -3,6 +3,7 @@
 //======================================================================
 
 // get color from palette
+// 
 // @param  string $name
 // @param  color  $default default color
 // @return color
@@ -21,6 +22,7 @@
 }
 
 // generate palette maps
+// 
 // @return maps
 @function generatePalette() {
   $p: ();
@@ -31,6 +33,7 @@
 }
 
 // get color map
+// 
 // @param  string $name
 // @return maps
 @function paletteGetColor($name) {
@@ -38,6 +41,7 @@
 }
 
 // mix two colors
+// 
 // @param string $name1
 // @param string $name2
 // @param number $weight  $name1 <- 0 ~ 100 -> $name2
@@ -45,6 +49,7 @@
 @function paletteMix($name1, $name2, $weight: 50%) {
   @return mix(palette($name1), palette($name2), $weight);
 }
+
 
 //======================================================================
 // Color Functions
@@ -60,6 +65,7 @@
 }
 
 // get contrast color
+// 
 // @param  color  $color
 // @param  color  $dark
 // @param  color  $light
@@ -71,4 +77,31 @@
   } @else {
     @return $light; // Darker background, return light color
   }
+}
+
+// Convert RGBA color to RGB color
+// @link https://makandracards.com/makandra/42500-sass-how-to-convert-an-rgba-color-to-its-rgb-look-alike
+// 
+// @param {Color} $rgba  RGBA color
+// @param {Color} $base  background base color
+// @return {Color} RGB color
+@function rgbaToRgb($rgba, $base: #fff) {
+  @return mix(rgb(red($rgba), green($rgba), blue($rgba)), $base, alpha($rgba) * 100%);
+}
+
+
+//======================================================================
+// Helper functions
+//======================================================================
+
+// Remove the unit of a length
+// 
+// @param  number $number Number to remove unit from
+// @return number Unitless number
+@function stripUnit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+
+  @return $number;
 }

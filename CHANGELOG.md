@@ -4,6 +4,7 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 ## [Unreleased]
 ### Added
 - Added CHANGELOG.md file.
+- Add "rgbaToRgb()" and "stripUnit()" to _functions.scss #7
 
 ## [0.2.0] - 2017-02-22
 ### Changed
