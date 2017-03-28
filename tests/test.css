@@ -13,3 +13,11 @@
 
 .test {
   color: #9e837e; }
+
+.test-1 {
+  font-size: 1em;
+  line-height: 1; }
+
+.test-2 {
+  color: #000;
+  background-color: rgba(75, 54, 33, 0.35); }

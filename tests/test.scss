@@ -19,3 +19,18 @@
 .test {
   color: paletteMix('snow', 'blackbean');
 }
+
+.test-1 {
+  $font-size: 1em;
+
+  font-size: $font-size;
+  line-height: stripUnit($font-size);
+}
+
+.test-2 {
+  $bg-color: rgba(palette('cafenoir'), 0.35);
+  $color: getContrast(rgbaToRgb($bg-color));
+
+  color: $color;
+  background-color: $bg-color;
+}
