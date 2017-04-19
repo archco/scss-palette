@@ -2,6 +2,9 @@
 also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ## [Unreleased]
+### Changed
+- Lint job on source files. #9
+- Change function name to "hyphenated lowercase (kebab style)". #9
 
 ## [0.2.1] - 2017-03-28
 ### Added

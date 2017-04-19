@@ -25,7 +25,7 @@
 // generate palette maps
 //
 // @return maps
-@function generatePalette() {
+@function generate-palette() {
   $p: ();
   @each $k, $m in $palette-colors {
     $p: map-merge($p, $m);
@@ -37,7 +37,7 @@
 //
 // @param  string $name
 // @return maps
-@function paletteGetColor($name) {
+@function palette-get-color($name) {
   @return map-get($palette-colors, $name);
 }
 
@@ -47,7 +47,7 @@
 // @param string $name2
 // @param number $weight  $name1 <- 0 ~ 100 -> $name2
 // @return color
-@function paletteMix($name1, $name2, $weight: 50%) {
+@function palette-mix($name1, $name2, $weight: 50%) {
   @return mix(palette($name1), palette($name2), $weight);
 }
 
@@ -61,7 +61,7 @@
 //
 // @param  color $color
 // @return int   0~255
-@function colorLightness($color) {
+@function color-lightness($color) {
   @return ((red($color) * 299) + (green($color) * 587) + (blue($color) * 114)) / 1000;
 }
 
@@ -71,9 +71,9 @@
 // @param  color  $dark
 // @param  color  $light
 // @return color  $dark or $light
-@function getContrast($color, $dark: #000, $light: #fff) {
+@function get-contrast-color($color, $dark: #000, $light: #fff) {
   // lightness point = 166 (65%, #a6a6a6)
-  @if (colorLightness($color) > 166) {
+  @if (color-lightness($color) > 166) {
     @return $dark; // Lighter backgorund, return dark color
   } @else {
     @return $light; // Darker background, return light color
@@ -86,7 +86,7 @@
 // @param {Color} $rgba  RGBA color
 // @param {Color} $base  background base color
 // @return {Color} RGB color
-@function rgbaToRgb($rgba, $base: #fff) {
+@function rgba-to-rgb($rgba, $base: #fff) {
   @return mix(rgb(red($rgba), green($rgba), blue($rgba)), $base, alpha($rgba) * 100%);
 }
 
@@ -99,7 +99,7 @@
 //
 // @param  number $number Number to remove unit from
 // @return number Unitless number
-@function stripUnit($number) {
+@function strip-unit($number) {
   @if type-of($number) == 'number' and not unitless($number) {
     @return $number / ($number * 0 + 1);
   }
