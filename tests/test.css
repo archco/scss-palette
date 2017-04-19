@@ -1,15 +1,15 @@
 /*! scss-palette v0.2.1 | https://github.com/archco/scss-palette | 396 colors */
 .black {
-  color: #FFFFFF;
+  color: #fff;
   background-color: #242124; }
 
 .white {
-  color: #000000;
-  background-color: #FFFAFA; }
+  color: #000;
+  background-color: #fffafa; }
 
 .pink {
-  color: #FFFFF0;
-  background-color: #F88379; }
+  color: #fffff0;
+  background-color: #f88379; }
 
 .test {
   color: #9e837e; }

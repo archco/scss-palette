@@ -31,6 +31,6 @@ $palette-colors: (
   "pink": $shades-of-pink,
 );
 
-$palette: generatePalette();
+$palette: generate-palette();
 
 /*! scss-palette v0.2.1 | https://github.com/archco/scss-palette | #{length($palette)} colors */
