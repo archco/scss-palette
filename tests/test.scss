@@ -28,7 +28,7 @@
 }
 
 .test-2 {
-  $bg-color: rgba(palette('cafenoir'), 0.35);
+  $bg-color: rgba(palette('cafenoir'), .35);
   $color: getContrast(rgbaToRgb($bg-color));
 
   color: $color;

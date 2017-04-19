@@ -3,7 +3,7 @@
 //======================================================================
 
 // get color from palette
-// 
+//
 // @param  string $name
 // @param  color  $default default color
 // @return color
@@ -11,8 +11,9 @@
   $name: to-lower-case($name);
   $color: map-get($palette, $name);
   @if $color == null {
-    @if $default != null { @return $default; }
-    @else {
+    @if $default != null {
+      @return $default;
+    } @else {
       @warn "#{$name} color is not exist in color-maps.";
       @return $default;
     }
@@ -22,7 +23,7 @@
 }
 
 // generate palette maps
-// 
+//
 // @return maps
 @function generatePalette() {
   $p: ();
@@ -33,7 +34,7 @@
 }
 
 // get color map
-// 
+//
 // @param  string $name
 // @return maps
 @function paletteGetColor($name) {
@@ -41,7 +42,7 @@
 }
 
 // mix two colors
-// 
+//
 // @param string $name1
 // @param string $name2
 // @param number $weight  $name1 <- 0 ~ 100 -> $name2
@@ -57,7 +58,7 @@
 
 // custom lightness()
 // @link   https://www.w3.org/TR/AERT#color-contrast
-// 
+//
 // @param  color $color
 // @return int   0~255
 @function colorLightness($color) {
@@ -65,12 +66,12 @@
 }
 
 // get contrast color
-// 
+//
 // @param  color  $color
 // @param  color  $dark
 // @param  color  $light
 // @return color  $dark or $light
-@function getContrast($color, $dark: #000, $light: #FFF) {
+@function getContrast($color, $dark: #000, $light: #fff) {
   // lightness point = 166 (65%, #a6a6a6)
   @if (colorLightness($color) > 166) {
     @return $dark; // Lighter backgorund, return dark color
@@ -81,7 +82,7 @@
 
 // Convert RGBA color to RGB color
 // @link https://makandracards.com/makandra/42500-sass-how-to-convert-an-rgba-color-to-its-rgb-look-alike
-// 
+//
 // @param {Color} $rgba  RGBA color
 // @param {Color} $base  background base color
 // @return {Color} RGB color
@@ -95,7 +96,7 @@
 //======================================================================
 
 // Remove the unit of a length
-// 
+//
 // @param  number $number Number to remove unit from
 // @return number Unitless number
 @function stripUnit($number) {
