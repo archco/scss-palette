@@ -8,10 +8,11 @@ const fs = require('fs');
 replace({
   files: 'tests/colors.css',
   from: [/(\/\*\!).*/gm, /(\/\*)|(\*\/)/g],
-  to: ''
+  to: '',
 })
   .then(changedFiles => {
     console.log('Modified files:', changedFiles.join(', '));
+
     // 2. rename to colors.json
     fs.rename('tests/colors.css', 'tests/colors.json', (err) => {
       if (err) throw err;
