@@ -8,6 +8,10 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ## [Unreleased]
 
+## [0.3.3] - 2017-06-21
+### Added
+- Publishing package to bower. #12
+
 ## [0.3.2] - 2017-04-30
 ### Changed
 - Update colors. (396 -> 414 colors)

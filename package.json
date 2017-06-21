@@ -1,6 +1,6 @@
 {
   "name": "scss-palette",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "The color palette for SCSS.",
   "main": "src/_palette.scss",
   "directories": {
@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "node banner.js",
     "build": "npm run sass && npm run json",
     "sass": "node node_modules/node-sass/bin/node-sass tests/test.scss tests/test.css",
     "sass:watch": "npm run sass && npm run sass -- --watch",
