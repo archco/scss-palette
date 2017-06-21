@@ -6,6 +6,12 @@ The color palette for SCSS.
 ```shell
 $ npm install scss-palette
 ```
+
+### Bower
+```shell
+$ bower install scss-palette
+```
+
 ## Usage
 ```scss
 // Import in your style.scss

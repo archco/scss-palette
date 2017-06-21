@@ -1,0 +1,21 @@
+{
+  "name": "scss-palette",
+  "description": "The color palette for SCSS.",
+  "main": "src/_palette.scss",
+  "authors": [
+    "archco"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "scss",
+    "color-palette"
+  ],
+  "homepage": "https://github.com/archco/scss-palette",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
