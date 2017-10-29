@@ -18,7 +18,6 @@ $shades-of-white: (
   'oldlace': #fdf5e6,
   'cream': #fffdd0,
   'beige': #f5f5dc,
-  'linen': #faf0e6,
   'antiquewhite': #faebd7,
   'champagne': #f7e7ce,
   'eggshell': #f0ead6,
@@ -27,7 +26,7 @@ $shades-of-white: (
   'vanilla': #f3e5ab,
   'flax': #eedc82,
   'navajowhite': #ffdead,
-  'ecru': #c2b280,
+  'ecru': #c2b280, // Deprecated at 2017-10-29
 
   // web colors
   // https://www.w3schools.com/colors/colors_groups.asp
@@ -35,6 +34,7 @@ $shades-of-white: (
   'mintcream': #f5fffa,
   'azure': #f0ffff,
   'aliceblue': #f0f8ff,
+  'linen': #faf0e6,
   'lavenderblush': #fff0f5,
   'mistyrose': #ffe4e1,
 );
