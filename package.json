@@ -4,16 +4,16 @@
   "description": "The color palette for SCSS.",
   "main": "src/_palette.scss",
   "directories": {
-    "test": "tests"
+    "test": "test"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prebuild": "node banner.js",
+    "prebuild": "node task/banner.js",
     "build": "npm run sass && npm run json",
-    "sass": "node node_modules/node-sass/bin/node-sass tests/test.scss tests/test.css",
+    "sass": "node node_modules/node-sass/bin/node-sass test/test.scss test/test.css",
     "sass:watch": "npm run sass && npm run sass -- --watch",
-    "json": "node node_modules/node-sass/bin/node-sass tests/colors.scss tests/colors.css",
-    "postjson": "node tests/convert-to-json"
+    "json": "node node_modules/node-sass/bin/node-sass test/colors.scss test/colors.css",
+    "postjson": "node task/convert-to-json"
   },
   "repository": {
     "type": "git",
