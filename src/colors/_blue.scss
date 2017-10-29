@@ -4,44 +4,48 @@
 //======================================================================
 
 $shades-of-blue: (
-  "blue": #00f,
+  'blue': #00f,
 
   // Additional definitions
-  "pigmentblue": #339, // CMYK
-  "naturalblue": #0087bd, // NCS
-  "munsellblue": #0093af, // Munsell
-  "pantoneblue": #0018a8, // Pantone
-  "crayolablue": #1f75fe, // Crayola
-
-  // Variations
-  "mediumblue": #0000cd,
-  "spanishblue": #0070bb,
-  "liberty": #545aa7,
-  "egyptianblue": #1034a6,
-  "ultramarine": #3f00ff,
-  "darkblue": #00008b,
-  "resolutionblue": #002387,
-  "navy": #000080,
-  "midnightblue": #191970,
-  "independence": #4c516d,
-  "spacecadet": #1d2951,
+  'pigmentblue': #339, // CMYK
+  'naturalblue': #0087bd, // NCS
+  'munsellblue': #0093af, // Munsell
+  'pantoneblue': #0018a8, // Pantone
+  'crayolablue': #1f75fe, // Crayola
 
   // tints of blue
-  "babyblue": #89cff0,
-  "lightblue": #add8e6,
-  "periwinkle": #ccf,
-  "powderblue": #b0e0e6,
-  "morningblue": #8da399,
+  'babyblue': #89cff0,
+  'lightblue': #add8e6,
+  'periwinkle': #ccf,
+  'powderblue': #b0e0e6,
+  'morningblue': #8da399,
+
+  // Variations
+  'mediumblue': #0000cd,
+  'celticblue': #246bce,
+  'spanishblue': #0070bb,
+  'liberty': #545aa7,
+  'egyptianblue': #1034a6,
+  'ultramarine': #3f00ff,
+  'darkblue': #00008b,
+  'resolutionblue': #002387,
+  'navy': #000080,
+  'midnightblue': #191970,
+  'independence': #4c516d,
+  'spacecadet': #1d2951,
+  'fluorescentblue': #15f4ee,
+  'teal': #008080,
+  'tealblue': #367588,
 
   // Web colors
   // https://www.w3schools.com/colors/colors_groups.asp
-  "cadetblue": #5f9ea0,
-  "steelblue": #4682b4,
-  "lightsteelblue": #b0c4de,
-  "lightskyblue": #87cefa,
-  "skyblue": #87ceeb,
-  "cornflowerblue": #6495ed,
-  "deepskyblue": #00bfff,
-  "dodgerblue": #1e90ff,
-  "royalblue": #4169e1,
+  'cadetblue': #5f9ea0,
+  'steelblue': #4682b4,
+  'lightsteelblue': #b0c4de,
+  'lightskyblue': #87cefa,
+  'skyblue': #87ceeb,
+  'cornflowerblue': #6495ed,
+  'deepskyblue': #00bfff,
+  'dodgerblue': #1e90ff,
+  'royalblue': #4169e1,
 );
