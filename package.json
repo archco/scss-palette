@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/archco/scss-palette#readme",
   "devDependencies": {
-    "node-sass": "^4.5.0",
-    "replace-in-file": "^2.4.0"
+    "node-sass": "^4.5.3",
+    "replace-in-file": "^3.0.0-beta.2"
   }
 }
