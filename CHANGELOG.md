@@ -8,6 +8,17 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ## [Unreleased]
 
+## Added
+- Add color topics: Indigo, Violet and Magenta. #13
+
+## Changed
+- Update colors. (414 -> 458 colors)
+
+## Deprecated
+- Red: `desire`, `lust`
+- White: `ecru`
+- Yellow: `tromboneyellow`
+
 ## [0.3.3] - 2017-06-21
 ### Added
 - Publishing package to bower. #12
