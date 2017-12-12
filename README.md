@@ -1,33 +1,47 @@
 # scss-palette
+
 The color palette for SCSS.
 
 ## Installation
+
 ### NPM
-```shell
-$ npm install scss-palette
+
+``` sh
+npm install scss-palette
 ```
 
 ### Bower
-```shell
-$ bower install scss-palette
+
+``` sh
+bower install scss-palette
 ```
 
 ## Usage
-```scss
+
+### Basic
+``` scss
 // Import in your style.scss
 @import 'node_modules/scss-palette/src/palette';
 
 $ashgray: palette('ashgray');
 ```
 
-## Color Index
+### Color index
+
 https://archco.github.io/scss-palette/
 
-## Usable functions
-https://github.com/archco/scss-palette/wiki/functions
+### Useful functions
+
+https://github.com/archco/scss-palette/blob/master/docs/functions.md
+
+### Documents
+
+Please see [documents page](https://github.com/archco/scss-palette/blob/master/docs/README.md).
 
 ## Change Log
+
 [CHANGELOG.md](https://github.com/archco/scss-palette/blob/master/CHANGELOG.md)
 
 ## License
-[MIT](https://github.com/archco/scss-palette/blob/master/LICENSE) License.
+
+[MIT License](https://github.com/archco/scss-palette/blob/master/LICENSE)
