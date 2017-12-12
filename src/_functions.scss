@@ -1,7 +1,10 @@
-//======================================================================
+//============================================================
 // scss-palette functions
-//======================================================================
+//============================================================
 // scss-lint:disable ColorVariable
+
+$palette-contrast-perc: 65% !default;
+$_palette-contrast-point: round(255 * ($palette-contrast-perc / 100%));
 
 // get color from palette
 //
@@ -53,9 +56,9 @@
 }
 
 
-//======================================================================
+//============================================================
 // Color Functions
-//======================================================================
+//============================================================
 
 // custom lightness()
 // @link   https://www.w3.org/TR/AERT#color-contrast
@@ -73,8 +76,8 @@
 // @param  color  $light
 // @return color  $dark or $light
 @function get-contrast-color($color, $dark: #000, $light: #fff) {
-  // lightness point = 166 (65%, #a6a6a6)
-  @if (color-lightness($color) > 166) {
+  // contrast point = 166 (65%, #a6a6a6)
+  @if (color-lightness($color) > $_palette-contrast-point) {
     @return $dark; // Lighter backgorund, return dark color
   } @else {
     @return $light; // Darker background, return light color
@@ -89,6 +92,32 @@
 // @return {Color} RGB color
 @function rgba-to-rgb($rgba, $base: #fff) {
   @return mix(rgb(red($rgba), green($rgba), blue($rgba)), $base, alpha($rgba) * 100%);
+}
+
+// Makes a color weaker. If color is light, then color to darker.
+//
+// @param  {Color}  $color
+// @param  {Number} $amount 0%-100%
+// @return {Color}
+@function weaken($color, $amount) {
+  @if (color-lightness($color) > $_palette-contrast-point) {
+    @return darken($color, $amount);
+  } @else {
+    @return lighten($color, $amount);
+  }
+}
+
+// Makes a color stronger. If color is dark, then color to more darker.
+//
+// @param  {Color}  $color
+// @param  {Number} $amount 0%-100%
+// @return {Color}
+@function strongen($color, $amount) {
+  @if (color-lightness($color) > $_palette-contrast-point) {
+    @return lighten($color, $amount);
+  } @else {
+    @return darken($color, $amount);
+  }
 }
 
 

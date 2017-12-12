@@ -34,3 +34,17 @@
   color: $color;
   background-color: $bg-color;
 }
+
+.test-weaken {
+  $_color: #333;
+  $_bg-color: #aaa;
+  color: weaken($_color, 15%);
+  background-color: weaken($_bg-color, 15%);
+}
+
+.test-strongen {
+  $_color: #333;
+  $_bg-color: #aaa;
+  color: strongen($_color, 15%);
+  background-color: strongen($_bg-color, 15%);
+}

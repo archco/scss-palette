@@ -21,3 +21,11 @@
 .test-2 {
   color: #000;
   background-color: rgba(75, 54, 33, 0.35); }
+
+.test-weaken {
+  color: #595959;
+  background-color: #848484; }
+
+.test-strongen {
+  color: #0d0d0d;
+  background-color: #d0d0d0; }
