@@ -10,9 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "node task/banner.js",
     "build": "npm run sass && npm run json",
-    "sass": "node node_modules/node-sass/bin/node-sass test/test.scss test/test.css",
+    "sass": "npx node-sass test/test.scss test/test.css",
     "sass:watch": "npm run sass && npm run sass -- --watch",
-    "json": "node node_modules/node-sass/bin/node-sass test/colors.scss test/colors.css",
+    "json": "npx node-sass test/colors.scss test/colors.css",
     "postjson": "node task/convert-to-json"
   },
   "repository": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/archco/scss-palette#readme",
   "devDependencies": {
-    "node-sass": "^4.5.3",
-    "replace-in-file": "^3.0.0-beta.2"
+    "node-sass": "^4.7.2",
+    "replace-in-file": "^3.0.0"
   }
 }
