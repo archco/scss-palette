@@ -8,6 +8,8 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ## [Unreleased]
 
+## [0.4.1] - 2017-12-12
+
 ### Added
 - Add functions "weaken()" and "strongen()". #14
 - Add [documents](https://github.com/archco/scss-palette/blob/master/docs/README.md).
@@ -47,7 +49,8 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 ### Changed
 - Changed build tool to "npm-scripts".
 
-[Unreleased]: https://github.com/archco/scss-palette/compare/v0.4.0...master
+[Unreleased]: https://github.com/archco/scss-palette/compare/v0.4.1...master
+[0.4.1]: https://github.com/archco/scss-palette/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/archco/scss-palette/compare/v0.3.3...v0.4.0
 [0.3.3]: https://github.com/archco/scss-palette/compare/v0.3.2...v0.3.3
 [0.3.2]: https://github.com/archco/scss-palette/compare/v0.3.0...v0.3.2
