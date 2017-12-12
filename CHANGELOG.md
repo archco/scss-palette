@@ -8,6 +8,9 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ## [Unreleased]
 
+### Added
+- Add functions "weaken()" and "strongen()". #14
+
 ## [0.4.0] - 2017-10-29
 
 ### Added

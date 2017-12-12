@@ -4,6 +4,7 @@
   "description": "The color palette for SCSS.",
   "main": "src/_palette.scss",
   "directories": {
+    "doc": "docs",
     "test": "test"
   },
   "scripts": {
