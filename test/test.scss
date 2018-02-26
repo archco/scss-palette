@@ -3,7 +3,7 @@
 
 .black {
   color: palette('white');
-  background-color: palette('raisinblack');
+  background-color: palette('raisin-black');
 }
 
 .white {
@@ -13,11 +13,11 @@
 
 .pink {
   color: palette('ivory');
-  background-color: palette('CoralPink');
+  background-color: palette('congo-pink');
 }
 
 .test {
-  color: palette-mix('snow', 'blackbean');
+  color: palette-mix('snow', 'black-bean');
 }
 
 .test-1 {
@@ -28,7 +28,7 @@
 }
 
 .test-2 {
-  $bg-color: rgba(palette('cafenoir'), .35);
+  $bg-color: rgba(palette('cafe-noir'), .35);
   $color: get-contrast-color(rgba-to-rgb($bg-color));
 
   color: $color;
