@@ -16,10 +16,12 @@ Also, It provides useful [Functions](#functions) in SCSS.
 ## [Functions](functions.md)
 
 ### Palette Functions
+
 - [#palette](functions.md#palette): Get color from scss-palette.
 - [#palette-mix](functions.md#palette-mix): Mix two palette colors.
 
 ### Color Functions
+
 - [#color-lightness](functions.md#color-lightness): Custom `lightness()` function.
 - [#get-contrast-color](functions.md#get-contrast-color): Get contrast color.
 - [#rgba-to-rgb](functions.md#rgba-to-rgb): Convert RGBA color to RGB color.
@@ -27,6 +29,7 @@ Also, It provides useful [Functions](#functions) in SCSS.
 - [#strongen](functions.md#strongen): Makes a color stronger. If color is dark, then color to more darker.
 
 ### Helper Functions
+
 - [#strip-unit](functions.md#strip-unit): Remove the unit of a length.
 
 [Color & Theming]: http://sass-lang.com/styleguide/color
