@@ -41,12 +41,16 @@ $shades-of-red: (
   // Tints of red.
   'pink': #ffc0cb,
   'salmon-pink': #ff91a4,
-  'coral-pink': #f88379, // same as 'tearose', 'congopink'
 
-  // Web colors
-  // https://www.w3schools.com/colors/colors_groups.asp
-  'lightsalmon': #ffa07a,
+  // salmon
+  // https://en.wikipedia.org/wiki/Salmon_(color)
   'salmon': #fa8072,
-  'darksalmon': #e9967a,
-  'lightcoral': #f08080,
+  'light-salmon': #ffa07a,
+  'dark-salmon': #e9967a,
+
+  // coral
+  // https://en.wikipedia.org/wiki/Coral_(color)
+  'coral': #ff7f50,
+  'coral-pink': #f88379,
+  'light-coral': #f08080,
 );

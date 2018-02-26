@@ -18,18 +18,18 @@ $shades-of-blue: (
   'light-blue': #add8e6,
   'periwinkle': #ccf,
   'powder-blue': #b0e0e6,
-  'ice-blue': #9ff, // @new at v0.5.x.
+  'ice-blue': #9ff, // @new in v0.5.x.
   'morning-blue': #8da399,
 
   // Variations
   'medium-blue': #0000cd,
-  'celtic-blue': #246bce, // @deprecated at v0.5.x. deleted.
+  'celtic-blue': #246bce, // @deprecated in v0.5.x. removed.
   'spanish-blue': #0070bb,
   'liberty': #545aa7,
   'egyptian-blue': #1034a6,
   'ultramarine': #3f00ff,
-  'delft-blue': #1f305e, // @new at v0.5.x.
-  'duck-blue': #007791, // @new at v0.5.x.
+  'delft-blue': #1f305e, // @new in v0.5.x.
+  'duck-blue': #007791, // @new in v0.5.x.
   'dark-blue': #00008b,
   'resolution-blue': #002387,
   'navy-blue': #000080, // @changed at v0.5.x. 'navy' to 'navy-blue'.
@@ -43,20 +43,16 @@ $shades-of-blue: (
   // Navy blue
   // https://en.wikipedia.org/wiki/Navy_blue
 
-  'crayola-navy-blue': #1974d2, // @new at v0.5.x.
-  'peacoat': #2b2e43, // @new at v0.5.x.
-  'purple-navy': #4e5180, // @new at v0.5.x.
-  'persian-indigo': #32127a, // @new at v0.5.x.
+  'crayola-navy-blue': #1974d2, // @new in v0.5.x.
+  'peacoat': #2b2e43, // @new in v0.5.x.
+  'purple-navy': #4e5180, // @new in v0.5.x.
+  'persian-indigo': #32127a, // @new in v0.5.x.
 
-  // Web colors
-  // https://www.w3schools.com/colors/colors_groups.asp
-  'cadetblue': #5f9ea0,
-  'steelblue': #4682b4,
-  'lightsteelblue': #b0c4de,
-  'lightskyblue': #87cefa,
-  'skyblue': #87ceeb,
-  'cornflowerblue': #6495ed,
-  'deepskyblue': #00bfff,
-  'dodgerblue': #1e90ff,
-  'royalblue': #4169e1,
+  // Cadet grey
+  // https://en.wikipedia.org/wiki/Cadet_grey
+
+  'cadet-gray': #91a3b0,
+  'cadet-blue': #5f9ea0,
+  'star-command-blue': #007bb8, // @new in v0.5.x.
+  'cadet': #536872, // @new in v0.5.x.
 );

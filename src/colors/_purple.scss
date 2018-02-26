@@ -17,7 +17,7 @@ $shades-of-purple: (
   'electric-purple': #bf00ff,
 
   // Variations
-  'pale-purple': #fae6fa, // @new at v0.5.x.
+  'pale-purple': #fae6fa, // @new in v0.5.x.
   'mauve': #e0b0ff,
   'thistle': #d8bfd8,
   'orchid': #da70d6,
@@ -38,22 +38,16 @@ $shades-of-purple: (
   'palatinate': #682860,
   'dark-purple': #301934,
 
-  // Web colors
-  // https://www.w3schools.com/colors/colors_groups.asp
+  // lavender
+  // https://en.wikipedia.org/wiki/Lavender_(color)
   'lavender': #e6e6fa,
   'plum': #dda0dd,
-  'violet': #ee82ee,
-  'fuchsia': #f0f,
-  'magenta': #f0f,
-  'mediumorchid': #ba55d3,
-  'darkorchid': #9932cc,
-  'darkviolet': #9400d3,
-  'blueviolet': #8a2be2,
-  'darkmagenta': #8b008b,
-  'mediumpurple': #9370db,
-  'mediumslateblue': #7b68ee,
-  'slateblue': #6a5acd,
-  'darkslateblue': #483d8b,
-  'rebeccapurple': #639,
-  'indigo': #4b0082,
+  'lavender-floral': #B57EDC,
+  'amethyst': #9966CC, // @new in v0.5.x.
+  'medium-purple': #9370db,
+  'twilight-lavender': #8A496B, // @new in v0.5.x.
+
+  // orchid
+  // https://en.wikipedia.org/wiki/Orchid_(color)
+  'dark-orchid': #9932cc,
 );

@@ -4,7 +4,6 @@
 //======================================================================
 
 $shades-of-green: (
-  'lime': #0f0,
   'green': #008000,
   'dark-green': #006400,
 
@@ -41,7 +40,7 @@ $shades-of-green: (
   'midnight-green': #004953,
   'msu-green': #18453b, // Michigan State University
   'neon-green': #39ff14,
-  'office-green': #008000, // @deprecated at v0.5.x. same as green.
+  'office-green': #008000, // @deprecated in v0.5.x. same as green.
   'pakistan-green': #060,
   'paris-green': #50c878,
   'persian-green': #00a693,
@@ -52,20 +51,20 @@ $shades-of-green: (
   'sea-green': #2e8b57,
   'sgbus-green': #5d3, // singapore bus color.
   'spanish-green': #009150,
-  'unt-green': #00853e, // @new at v0.5.x. University of North Texas.
+  'unt-green': #00853e, // @new in v0.5.x. University of North Texas.
   'up-forest-green': #014421, // University of the Philippines
 
   // Green in nature
   'artichoke': #8f9779,
   'artichoke-green': #4b6f44,
   'asparagus': #87a96b,
-  'shrek': #87a96b, // @deprecated at v0.5.x. use asparagus instead.
+  'shrek': #87a96b, // @deprecated in v0.5.x. use asparagus instead.
   'avocado': #568203,
   'deep-dark-green': #013220,
   'fern': #71bc78,
   'fern-green': #4f7942,
   'forest-green': #228b22,
-  'green-earth': #dadd98, // @new at v0.5.x
+  'green-earth': #dadd98, // @new in v0.5.x
   'hookers-green': #49796b,
   'jungle-green': #29ab87,
   'laurel-green': #a9ba9d,
@@ -90,17 +89,28 @@ $shades-of-green: (
   'dark-olive-green': #556b2f,
   'black-olive': #3b3c36,
 
-  // Web colors
-  // https://www.w3schools.com/colors/colors_groups.asp
-  'chartreuse': #7fff00,
-  'lawngreen': #7cfc00,
-  'limegreen': #32cd32,
-  'palegreen': #98fb98,
-  'mediumspringgreen': #00fa9a,
-  'springgreen': #00ff7f,
-  'mediumseagreen': #3cb371,
-  'yellowgreen': #9acd32,
-  'mediumaquamarine': #66cdaa,
-  'darkseagreen': #8fbc8f,
-  'lightseagreen': #20b2aa,
+  // chartreuse
+  // https://en.wikipedia.org/wiki/Chartreuse_(color)
+  'chartreuse-green': #7fff00, // @changed 'chartreuse' to 'chartreuse-green'.
+  'chartreuse-yellow': #dfff00, // @new in v0.5.x.
+  'pear': #d1e231, // @new in v0.5.x.
+  'spring-bud': #a7fc00, // @new in v0.5.x.
+  'lawn-green': #7cfc00,
+  'pistachio': #93c572, // @new in v0.5.x.
+  'yellow-green': #9acd32,
+  'kombu-green': #354230, // @new in v0.5.x.
+
+  // lime
+  // https://en.wikipedia.org/wiki/Lime_(color)
+  'lime': #bfff00, // @new in v0.5.x.
+  'x11-lime': #0f0, // @changed 'lime' to 'x11-lime'.
+  'lime-green': #32cd32,
+
+  // spring-green
+  // https://en.wikipedia.org/wiki/Spring_green
+  'spring-green': #00ff7f,
+  'medium-spring-green': #00fa9a,
+  'caribbean-green': #0c9, // @new in v0.5.x.
+  'mint': #3EB489, // @new in v0.5.x.
+  'medium-sea-green': #3cb371,
 );

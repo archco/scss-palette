@@ -7,11 +7,10 @@ $shades-of-orange: (
   'orange': #ff7f00, // color wheel orange
   'web-color-orange': #ffa500, // web color orange
   'dark-orange': #ff8c00,
-  'coral': #ff7f50,
   'orange-red': #ff4500,
 
   // Additional definitions
-  'color-wheel-orange': #ff7f00, // @deprecated at v0.5.x. same as 'orange'.
+  'color-wheel-orange': #ff7f00, // @deprecated in v0.5.x. same as 'orange'.
   'pantone-orange': #ff5800,
   'crayola-orange': #ff7538,
 
@@ -35,7 +34,7 @@ $shades-of-orange: (
   'tomato': #ff6347,
   'bittersweet': #fe6f5e,
   'persimmon': #ec5800,
-  'butterscotch': #e09540, // @new at v0.5.x.
+  'butterscotch': #e09540, // @new in v0.5.x.
   'persian-orange': #d99058,
   'alloy-orange': #c46210,
   'burnt-orange': #bf5700,

@@ -11,16 +11,21 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ### Added
 
-- Add colors into Blue. `ice-blue`,  `delft-blue`, `duck-blue`, `crayola-navy-blue`, `peacoat`, `purple-navy` and `persian-indigo`.
-- Add colors into Green. `unt-green` and `green-earth`.
-- Add color into Indigo. `indigo-dye`.
-- Add color into Orange. `butterscotch`.
-- Add color into Purple. `pale-purple`.
-- Add color Violet. `ultra-violet`
+- Blues: `ice-blue`,  `delft-blue`, `duck-blue`, `crayola-navy-blue`, `peacoat`, `purple-navy`, `persian-indigo`, `star-command-blue` and `cadet`.
+- Cyan: `turquoise-blue`.
+- Green: `unt-green`, `green-earth`, `chartreuse-yellow`, `pear`, `spring-bud`, `pistachio`, `kombu-green`, `lime`, `caribbean-green` and `mint`.
+- Indigo: `indigo-dye`.
+- Orange: `butterscotch`.
+- Purple: `pale-purple`, `amethyst` and `twilight-lavender`.
+- Violet: `ultra-violet`.
+- Yellow: `metallic-gold` and `golden-yellow`.
 
 ### Changed
 
-- Change `navy` to `navy-blue` in blue.
+- Rename `navy` to `navy-blue` in Blue.
+- Rename `paleturquoise` to `light-turquoise` in Cyan.
+- Rename `chartreuse` to `chartreuse-green` in Green.
+- Rename `lime` to `x11-lime` in Green.
 
 ### Deprecated
 
@@ -29,7 +34,10 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 - `office-green` in green is deprecated. same as `green`.
 - `shrek` in green is deprecated. same as `asparagus`.
 - `color-wheel-orange` in orange is deprecated. same as `orange`.
-- `coral-pink` in pink is deprecated. same as `congo-pink`.
+
+### Removed
+
+- Removes web-colors that not included in the color-topics. #21
 
 ## [0.4.1] - 2017-12-12
 

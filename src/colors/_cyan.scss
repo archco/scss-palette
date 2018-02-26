@@ -31,9 +31,11 @@ $shades-of-cyan: (
   'verdigris': #43b3ae,
   'viridian': #40826d,
 
-  // Web Colors.
-  // https://www.w3schools.com/colors/colors_groups.asp
-  'paleturquoise': #afeeee,
-  'mediumturquoise': #48d1cc,
-  'darkturquoise': #00ced1,
+  // Turquoise
+  // https://en.wikipedia.org/wiki/Turquoise_(color)
+
+  'light-turquoise': #afeeee, // @changed 'paleturquoise' to 'light-turquoise'.
+  'turquoise-blue': #00ffef, // @new in v0.5.x.
+  'medium-turquoise': #48d1cc,
+  'dark-turquoise': #00ced1,
 );
