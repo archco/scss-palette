@@ -3,8 +3,7 @@
 //============================================================
 // scss-lint:disable ColorVariable
 
-$palette-contrast-perc: 65% !default;
-$_palette-contrast-point: round(255 * ($palette-contrast-perc / 100%));
+$palette-brightness-point: 165 !default; // 65%
 
 // get color from palette
 //
@@ -60,12 +59,12 @@ $_palette-contrast-point: round(255 * ($palette-contrast-perc / 100%));
 // Color Functions
 //============================================================
 
-// custom lightness()
+// Get brightness of color.
 // @link   https://www.w3.org/TR/AERT#color-contrast
 //
 // @param  color $color
 // @return int   0~255
-@function color-lightness($color) {
+@function brightness($color) {
   @return ((red($color) * 299) + (green($color) * 587) + (blue($color) * 114)) / 1000;
 }
 
@@ -77,8 +76,8 @@ $_palette-contrast-point: round(255 * ($palette-contrast-perc / 100%));
 // @return color  $dark or $light
 @function get-contrast-color($color, $dark: #000, $light: #fff) {
   // contrast point = 166 (65%, #a6a6a6)
-  @if (color-lightness($color) > $_palette-contrast-point) {
-    @return $dark; // Lighter backgorund, return dark color
+  @if (brightness($color) > $palette-brightness-point) {
+    @return $dark; // Lighter background, return dark color
   } @else {
     @return $light; // Darker background, return light color
   }
@@ -100,7 +99,7 @@ $_palette-contrast-point: round(255 * ($palette-contrast-perc / 100%));
 // @param  {Number} $amount 0%-100%
 // @return {Color}
 @function weaken($color, $amount) {
-  @if (color-lightness($color) > $_palette-contrast-point) {
+  @if (brightness($color) > $palette-brightness-point) {
     @return darken($color, $amount);
   } @else {
     @return lighten($color, $amount);
@@ -113,7 +112,7 @@ $_palette-contrast-point: round(255 * ($palette-contrast-perc / 100%));
 // @param  {Number} $amount 0%-100%
 // @return {Color}
 @function strongen($color, $amount) {
-  @if (color-lightness($color) > $_palette-contrast-point) {
+  @if (brightness($color) > $palette-brightness-point) {
     @return lighten($color, $amount);
   } @else {
     @return darken($color, $amount);

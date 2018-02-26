@@ -26,6 +26,7 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 - Rename `paleturquoise` to `light-turquoise` in Cyan.
 - Rename `chartreuse` to `chartreuse-green` in Green.
 - Rename `lime` to `x11-lime` in Green.
+- Rename function name `color-lightness()` to `brightness()`. #16
 
 ### Deprecated
 
