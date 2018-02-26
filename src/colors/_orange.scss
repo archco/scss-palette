@@ -5,38 +5,39 @@
 
 $shades-of-orange: (
   'orange': #ff7f00, // color wheel orange
-  'webcolororange': #ffa500, // web color orange
-  'darkorange': #ff8c00,
+  'web-color-orange': #ffa500, // web color orange
+  'dark-orange': #ff8c00,
   'coral': #ff7f50,
   'orangered': #ff4500,
 
   // Additional definitions
-  'colorwheelorange': #ff7f00,
-  'pantoneorange': #ff5800,
-  'crayolaorange': #ff7538,
+  'color-wheel-orange': #ff7f00, // @deprecated at v0.5.x. same as 'orange'.
+  'pantone-orange': #ff5800,
+  'crayola-orange': #ff7538,
 
   // Variations
-  'papayawhip': #ffefd5,
+  'papaya-whip': #ffefd5,
   'peach': #ffe5b4,
-  'lightorange': #fed8b1,
+  'light-orange': #fed8b1,
   'apricot': #fbceb1,
   'melon': #fdbcb4,
-  'atomictangerine': #f96,
-  'tearose': #f88379,
-  'carrotorange': #ed9121,
-  'orangepeel': #ff9f00,
-  'princetonorange': #ee7f2d,
-  'utorange': #ff8200, // University of Tennessee
-  'spanishorange': #e86100,
+  'atomic-tangerine': #f96,
+  'tea-rose': #f88379,
+  'carrot-orange': #ed9121,
+  'orange-peel': #ff9f00,
+  'princeton-orange': #ee7f2d,
+  'ut-orange': #ff8200, // University of Tennessee
+  'spanish-orange': #e86100,
   'tangerine': #f28500,
   'pumpkin': #ff7518,
-  'giantsorange': #fe5a1d, // the San Francisco Giants baseball team
+  'giants-orange': #fe5a1d, // the San Francisco Giants baseball team
   'vermilion': #e34234,
   'tomato': #ff6347,
   'bittersweet': #fe6f5e,
   'persimmon': #ec5800,
-  'persianorange': #d99058,
-  'alloyorange': #c46210,
-  'burntorange': #bf5700,
-  'bittersweetshimmer': #bf4f51,
+  'butterscotch': #e09540, // @new at v0.5.x.
+  'persian-orange': #d99058,
+  'alloy-orange': #c46210,
+  'burnt-orange': #bf5700,
+  'bittersweet-shimmer': #bf4f51,
 );
