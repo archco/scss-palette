@@ -9,84 +9,86 @@ $shades-of-green: (
   'darkgreen': #006400,
 
   // Additional definitions
-  'pigmentgreen': #00a550, // CMYK
-  'naturalgreen': #009f6b, // NCS
-  'munsellgreen': #00a877, // Munsell
-  'pantonegreen': #00ad83, // Pantone
-  'crayolagreen': #1cac78, // Crayola
+  'pigment-green': #00a550, // CMYK
+  'natural-green': #009f6b, // NCS
+  'munsell-green': #00a877, // Munsell
+  'pantone-green': #00ad83, // Pantone
+  'crayola-green': #1cac78, // Crayola
 
   // Variations
-  'armygreen': #4b5320,
-  'bottlegreen': #006a4e,
-  'brightgreen': #6f0,
-  'brightmint': #4fffb0,
-  'brunswickgreen': #1b4d3e,
-  'calpolypomonagreen': #1e4d2b, // Cal Poly Pomona green
-  'castletongreen': #00563b,
+  'army-green': #4b5320,
+  'bottle-green': #006a4e,
+  'bright-green': #6f0,
+  'bright-mint': #4fffb0,
+  'brunswick-green': #1b4d3e,
+  'cal-poly-pomona-green': #1e4d2b, // Cal Poly Pomona green
+  'castleton-green': #00563b,
   'celadon': #ace1af,
-  'celadongreen': #2f847c,
-  'darkpastelgreen': #03c03c,
-  'dartmouthgreen': #00693e,
+  'celadon-green': #2f847c,
+  'dark-pastel-green': #03c03c,
+  'dartmouth-green': #00693e,
   'emerald': #50c878,
   'feldgrau': #4d5d53,
-  'gogreen': #00ab66,
-  'greenyellow': #adff2f,
+  'go-green': #00ab66,
+  'green-yellow': #adff2f,
   'harlequin': #3fff00,
-  'huntergreen': #355e3b,
-  'indiagreen': #138808,
-  'islamicgreen': #009000,
+  'hunter-green': #355e3b,
+  'india-green': #138808,
+  'islamic-green': #009000,
   'jade': #00a86b,
-  'kellygreen': #4cbb17,
+  'kelly-green': #4cbb17,
   'malachite': #0bda51,
-  'midnightgreen': #004953,
-  'msugreen': #18453b, // Michigan State University
-  'neongreen': #39ff14,
-  'officegreen': #008000, // same as green
-  'pakistangreen': #060,
-  'parisgreen': #50c878,
-  'persiangreen': #00a693,
-  'riflegreen': #444c38,
-  'russiangreen': #679267,
-  'sacramentostategreen': #043927, // California State University, Sacramento
-  'screamingreen': #76ff7a,
-  'seagreen': #2e8b57,
-  'sgbusgreen': #5d3, // singapore bus color.
-  'spanishgreen': #009150,
-  'upforestgreen': #014421, // University of the Philippines
+  'midnight-green': #004953,
+  'msu-green': #18453b, // Michigan State University
+  'neon-green': #39ff14,
+  'officegreen': #008000, // @deprecated at v0.5.x. same as green.
+  'pakistan-green': #060,
+  'paris-green': #50c878,
+  'persian-green': #00a693,
+  'rifle-green': #444c38,
+  'russian-green': #679267,
+  'sacramento-state-green': #043927, // California State University, Sacramento
+  'screamin-green': #76ff7a,
+  'sea-green': #2e8b57,
+  'sgbus-green': #5d3, // singapore bus color.
+  'spanish-green': #009150,
+  'unt-green': #00853e, // @new at v0.5.x. University of North Texas.
+  'up-forest-green': #014421, // University of the Philippines
 
   // Green in nature
   'artichoke': #8f9779,
-  'artichokegreen': #4b6f44,
+  'artichoke-green': #4b6f44,
   'asparagus': #87a96b,
-  'shrek': #87a96b, // same as asparagus.
+  'shrek': #87a96b, // @deprecated at v0.5.x. use asparagus instead.
   'avocado': #568203,
-  'deepdarkgreen': #013220,
+  'deep-dark-green': #013220,
   'fern': #71bc78,
-  'ferngreen': #4f7942,
-  'forestgreen': #228b22,
-  'hookersgreen': #49796b,
-  'junglegreen': #29ab87,
-  'laurelgreen': #a9ba9d,
-  'lightgreen': #90ee90,
+  'fern-green': #4f7942,
+  'forest-green': #228b22,
+  'green-earth': #dadd98, // @new at v0.5.x
+  'hookers-green': #49796b,
+  'jungle-green': #29ab87,
+  'laurel-green': #a9ba9d,
+  'light-green': #90ee90,
   'mantis': #74c365,
-  'mintgreen': #98fb98,
-  'mossgreen': #8a9a5b,
-  'darkmossgreen': #4a5d23,
-  'myrtlegreen': #317873,
-  'pinegreen': #01796f,
-  'resedagreen': #6c7c59,
-  'shamrockgreen': #009e60, // Irish green
-  'teagreen': #d0f0c0,
+  'mint-green': #98fb98,
+  'moss-green': #8a9a5b,
+  'dark-moss-green': #4a5d23,
+  'myrtle-green': #317873,
+  'pine-green': #01796f,
+  'reseda-green': #6c7c59,
+  'shamrock-green': #009e60, // Irish green
+  'tea-green': #d0f0c0,
   'teal': #008080,
 
   // olive colors
   // @links https://en.wikipedia.org/wiki/Olive_(color)
   'olive': #808000,
   'olivine': #9ab973,
-  'olivedrab': #6b8e23,
-  'olivedrabcamouflage': #544f3d,
-  'darkolivegreen': #556b2f,
-  'blackolive': #3b3c36,
+  'olive-drab': #6b8e23,
+  'olive-drab-camouflage': #544f3d,
+  'dark-olive-green': #556b2f,
+  'black-olive': #3b3c36,
 
   // Web colors
   // https://www.w3schools.com/colors/colors_groups.asp

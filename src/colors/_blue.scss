@@ -7,35 +7,47 @@ $shades-of-blue: (
   'blue': #00f,
 
   // Additional definitions
-  'pigmentblue': #339, // CMYK
-  'naturalblue': #0087bd, // NCS
-  'munsellblue': #0093af, // Munsell
-  'pantoneblue': #0018a8, // Pantone
-  'crayolablue': #1f75fe, // Crayola
+  'pigment-blue': #339, // CMYK
+  'natural-blue': #0087bd, // NCS
+  'munsell-blue': #0093af, // Munsell
+  'pantone-blue': #0018a8, // Pantone
+  'crayola-blue': #1f75fe, // Crayola
 
   // tints of blue
-  'babyblue': #89cff0,
-  'lightblue': #add8e6,
+  'baby-blue': #89cff0,
+  'light-blue': #add8e6,
   'periwinkle': #ccf,
-  'powderblue': #b0e0e6,
-  'morningblue': #8da399,
+  'powder-blue': #b0e0e6,
+  'ice-blue': #9ff, // @new at v0.5.x.
+  'morning-blue': #8da399,
 
   // Variations
-  'mediumblue': #0000cd,
-  'celticblue': #246bce,
-  'spanishblue': #0070bb,
+  'medium-blue': #0000cd,
+  'celtic-blue': #246bce, // @deprecated at v0.5.x. deleted.
+  'spanish-blue': #0070bb,
   'liberty': #545aa7,
-  'egyptianblue': #1034a6,
+  'egyptian-blue': #1034a6,
   'ultramarine': #3f00ff,
-  'darkblue': #00008b,
-  'resolutionblue': #002387,
-  'navy': #000080,
-  'midnightblue': #191970,
+  'delft-blue': #1f305e, // @new at v0.5.x.
+  'duck-blue': #007791, // @new at v0.5.x.
+  'dark-blue': #00008b,
+  'resolution-blue': #002387,
+  'navy-blue': #000080, // @changed at v0.5.x. 'navy' to 'navy-blue'.
+  'midnight-blue': #191970,
   'independence': #4c516d,
-  'spacecadet': #1d2951,
-  'fluorescentblue': #15f4ee,
+  'space-cadet': #1d2951,
+  'fluorescent-blue': #15f4ee,
   'teal': #008080,
-  'tealblue': #367588,
+  'teal-blue': #367588,
+
+  // Navy blue
+  // https://en.wikipedia.org/wiki/Navy_blue
+
+  'crayola-navy-blue': #1974d2, // @new at v0.5.x.
+  'indigo-dye': #091f92, // @new at v0.5.x.
+  'peacoat': #2b2e43, // @new at v0.5.x.
+  'purple-navy': #4e5180, // @new at v0.5.x.
+  'persian-indigo': #32127a, // @new at v0.5.x.
 
   // Web colors
   // https://www.w3schools.com/colors/colors_groups.asp
