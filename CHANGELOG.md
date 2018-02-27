@@ -9,6 +9,8 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ## [Unreleased]
 
+## [0.5.0] - 2018-02-27
+
 ### Added
 
 - Blues: `ice-blue`,  `delft-blue`, `duck-blue`, `crayola-navy-blue`, `peacoat`, `purple-navy`, `persian-indigo`, `star-command-blue` and `cadet`.
@@ -22,6 +24,7 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ### Changed
 
+- [**Important**] Changes case of color name to `kebab-case`. #19
 - Rename `navy` to `navy-blue` in Blue.
 - Rename `paleturquoise` to `light-turquoise` in Cyan.
 - Rename `chartreuse` to `chartreuse-green` in Green.
@@ -39,6 +42,7 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 ### Removed
 
 - Removes web-colors that not included in the color-topics. #21
+- Removes deprecated colors. `desire`, `lust`, `ecru` and `tromboneyellow`. #18
 
 ## [0.4.1] - 2017-12-12
 
@@ -95,7 +99,8 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 - Changed build tool to "npm-scripts".
 
-[Unreleased]: https://github.com/archco/scss-palette/compare/v0.4.1...master
+[Unreleased]: https://github.com/archco/scss-palette/compare/v0.5.0...master
+[0.5.0]: https://github.com/archco/scss-palette/compare/v0.4.1...v0.5.0
 [0.4.1]: https://github.com/archco/scss-palette/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/archco/scss-palette/compare/v0.3.3...v0.4.0
 [0.3.3]: https://github.com/archco/scss-palette/compare/v0.3.2...v0.3.3
