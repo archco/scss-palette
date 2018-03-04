@@ -63,7 +63,7 @@ $palette-brightness-point: 165 !default; // 65%
 //
 // @param  color $color
 // @return int   0~255
-@function brightness($color) {
+@function color-brightness($color) {
   @return ((red($color) * 299) + (green($color) * 587) + (blue($color) * 114)) / 1000;
 }
 
@@ -75,7 +75,7 @@ $palette-brightness-point: 165 !default; // 65%
 // @return color  $dark or $light
 @function get-contrast-color($color, $dark: #000, $light: #fff) {
   // contrast point = 166 (65%, #a6a6a6)
-  @if (brightness($color) > $palette-brightness-point) {
+  @if (color-brightness($color) > $palette-brightness-point) {
     @return $dark; // Lighter background, return dark color
   } @else {
     @return $light; // Darker background, return light color
@@ -98,7 +98,7 @@ $palette-brightness-point: 165 !default; // 65%
 // @param  {Number} $amount 0%-100%
 // @return {Color}
 @function weaken($color, $amount) {
-  @if (brightness($color) > $palette-brightness-point) {
+  @if (color-brightness($color) > $palette-brightness-point) {
     @return darken($color, $amount);
   } @else {
     @return lighten($color, $amount);
@@ -111,7 +111,7 @@ $palette-brightness-point: 165 !default; // 65%
 // @param  {Number} $amount 0%-100%
 // @return {Color}
 @function strongen($color, $amount) {
-  @if (brightness($color) > $palette-brightness-point) {
+  @if (color-brightness($color) > $palette-brightness-point) {
     @return lighten($color, $amount);
   } @else {
     @return darken($color, $amount);

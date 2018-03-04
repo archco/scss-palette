@@ -9,6 +9,12 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ## [Unreleased]
 
+## [0.5.1] - 2018-03-04
+
+### Changed
+
+- Rename function name `brightness()` to `color-brightness()`. Because `brightness()` function using already in the [`filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) property.
+
 ## [0.5.0] - 2018-02-27
 
 ### Added
@@ -99,7 +105,8 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 - Changed build tool to "npm-scripts".
 
-[Unreleased]: https://github.com/archco/scss-palette/compare/v0.5.0...master
+[Unreleased]: https://github.com/archco/scss-palette/compare/v0.5.1...master
+[0.5.1]: https://github.com/archco/scss-palette/compare/v0.5.0...v0.5.1
 [0.5.0]: https://github.com/archco/scss-palette/compare/v0.4.1...v0.5.0
 [0.4.1]: https://github.com/archco/scss-palette/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/archco/scss-palette/compare/v0.3.3...v0.4.0
