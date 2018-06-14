@@ -5,8 +5,9 @@ $shades-of-purple: (
   'purple': #800080,
 
   // Additional definitions
-  'munsell-purple': #9f00c5, // Munsell
   'x11-purple': #a020f0, // X11
+  'medium-purple': #9370db,
+  'munsell-purple': #9f00c5, // Munsell
 
   // Historical
   'tyrian-purple': #66023c,
@@ -42,7 +43,6 @@ $shades-of-purple: (
   'plum': #dda0dd,
   'lavender-floral': #B57EDC,
   'amethyst': #9966CC, // @new in v0.5.x.
-  'medium-purple': #9370db,
   'twilight-lavender': #8A496B, // @new in v0.5.x.
 
   // orchid

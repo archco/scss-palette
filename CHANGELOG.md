@@ -43,6 +43,16 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 #### Magenta
 
 - Add color `garnet`.
+- [Add red-violet colors](https://en.wikipedia.org/wiki/Red-violet): `kobi`,`pale-red-violet`,`violet-red`,`red-purple`,`blush`,`smitten`,`crayola-red-violet`,`fandango`,`flirt`,`jazzberry-jam`,`wine`,`eggplant`.
+
+#### Orange
+
+- Add color `safety-orange`, `aerospace-orange`, `golden-gate-bridge`, `syracuse-orange`.
+- [Add vermilion colors](https://en.wikipedia.org/wiki/Vermilion): `red-orange`, `medium-vermilion`, `chinese-red`.
+
+#### Pink
+
+- [Add pink colors](https://en.wikipedia.org/wiki/Rose_(color)): `rose`, `tea-rose`, `rose-bonbon`, `french-rose`, `razzmatazz`, `fuchsia-rose`, `rose-red`, `dogwood-rose`, `raspberry-rose`, `china-rose`, `rose-vale`, `cordovan`, `rose-ebony`, `rosewood`.
 
 ## [0.5.1] - 2018-03-04
 

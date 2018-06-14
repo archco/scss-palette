@@ -12,6 +12,11 @@ $shades-of-orange: (
   'pantone-orange': #ff5800,
   'crayola-orange': #ff7538,
 
+  // Aerospace and safety
+  'safety-orange': #ff7900, // @new in v0.6.0.
+  'aerospace-orange': #ff4f00, // @new in v0.6.0.
+  'golden-gate-bridge': #f04a00, // @new in v0.6.0.
+
   // Variations
   'papaya-whip': #ffefd5,
   'peach': #ffe5b4,
@@ -28,8 +33,8 @@ $shades-of-orange: (
   'tangerine': #f28500,
   'pumpkin': #ff7518,
   'giants-orange': #fe5a1d, // the San Francisco Giants baseball team
-  'vermilion': #e34234,
   'tomato': #ff6347,
+  'syracuse-orange': #d44500, // @new in v0.6.0.
   'bittersweet': #fe6f5e,
   'persimmon': #ec5800,
   'butterscotch': #e09540, // @new in v0.5.x.
@@ -37,4 +42,11 @@ $shades-of-orange: (
   'alloy-orange': #c46210,
   'burnt-orange': #bf5700,
   'bittersweet-shimmer': #bf4f51,
+
+  // Vermilion
+  // https://en.wikipedia.org/wiki/Vermilion
+  'vermilion': #e34234,
+  'red-orange': #ff5349, // crayola-red-orange. @new in v0.6.0.
+  'medium-vermilion': #d9381e, // @new in v0.6.0.
+  'chinese-red': #aa381e, // @new in v0.6.0.
 );
