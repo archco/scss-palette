@@ -9,6 +9,27 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ## [Unreleased]
 
+### Added
+
+#### Blue
+
+- [Add sapphire colors](https://en.wikipedia.org/wiki/Sapphire_(color)): `sapphire`, `sapphire-blue`, `crayola-sapphire`, `bedazzled-blue`, `blue-sapphire`, `dark-sapphire`
+
+#### Brown
+
+- [Add beige colors](https://en.wikipedia.org/wiki/Beige): `cosmic-latte`, `unbleached-silk`, `tuscan`, `ecru`, `light-french-beige`, `french-beige`, `mode-beige`.
+- [Add desert-sand colors](https://en.wikipedia.org/wiki/Desert_sand_(color)): `earth-yellow`, `sand`, `desert`, `sand-dune`, `field-drab`.
+- [Add tan colors](https://en.wikipedia.org/wiki/Tan_(color)): `sandy-tan`, `tan-orange`, `windsor-tan`, `tuscan-tan`.
+- [Add taupe colors](https://en.wikipedia.org/wiki/taupe): `light-taupe`, `mauve-taupe`,  `rose-taupe`, `sandy-taupe`, `taupe-gray`, `deep-taupe`, `taupe-brown`.
+- [Add coffee colors](https://en.wikipedia.org/wiki/Coffee_(color)): `coffee`, `latte`, `black-coffee`(same as `cafe-noir`).
+
+#### Cyan
+
+- [Add air force blue colors](https://en.wikipedia.org/wiki/Air_Force_blue): `raf-blue`, `usaf-blue`, `usaf-academy-blue`, `aero`, `wild-blue-yonder`, `air-superiority-blue`, `blue-yonder`.
+- [Add sky blue colors](https://en.wikipedia.org/wiki/Sky_blue): `sky-blue`, `light-sky-blue`, `vivid-sky-blue`, `neon-blue`, `deep-sky-blue`, `french-sky-blue`, `spanish-sky-blue`, `dark-sky-blue`.
+- [Add cerulean colors](https://en.wikipedia.org/wiki/Cerulean): `cerulean-blue`, `pale-cerulean`, `bright-cerulean`, `cerulean-frost`.
+- [Add electric blue colors](https://en.wikipedia.org/wiki/Electric_blue_(color)): `deep-electric-blue`, `iridescent-electric-blue`, `medium-electric-blue`, `dark-electric-blue`.
+
 ## [0.5.1] - 2018-03-04
 
 ### Changed

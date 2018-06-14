@@ -11,13 +11,11 @@ $shades-of-brown: (
   // Variations
   'amber': #ffbf00,
   'beaver': #9f8170,
-  'beige': #f5f5dc,
   'buff': #f0dc82,
   'burnt-umber': #8a3324,
   'chestnut': #954535,
   'chocolate': #7b3f00,
   'cocoa-brown': #d2691e,
-  'desert-sand': #edc9af,
   'khaki': #c3b091,
   'kobicha': #6b4423,
   'peru': #cd853f,
@@ -26,7 +24,51 @@ $shades-of-brown: (
   'russet': #80461b,
   'sandy-brown': #f4a460,
   'smokey-topaz': #832a0d,
-  'tan': #d2b48c,
-  'taupe': #483c32,
   'wood-brown': #c19a6b,
+
+  // Beige
+  // https://en.wikipedia.org/wiki/Beige
+  'beige': #f5f5dc,
+  'cosmic-latte': #fff8e7, // @new in v0.6.0.
+  'cream': #fffdd0,
+  'unbleached-silk': #ffddca, // @new in v0.6.0.
+  'tuscan': #fad6a5, // @new in v0.6.0.
+  'ecru': #c2b280, // @new in v0.6.0.
+  'light-french-beige': #c8ad7f, // @new in v0.6.0.
+  'french-beige': #a67b5b, // @new in v0.6.0.
+  'mode-beige': #967117, // @new in v0.6.0.
+
+  // Desert sand
+  // https://en.wikipedia.org/wiki/Desert_sand_(color)
+  'desert-sand': #edc9af,
+  'earth-yellow': #e1a95f, // @new in v0.6.0.
+  'sand': #c2b280, // @new in v0.6.0.
+  'desert': #c19a6b, // @new in v0.6.0. same as wood-brown.
+  'sand-dune': #967117, // @new in v0.6.0.
+  'field-drab': #6c541e, // @new in v0.6.0.
+
+  // Tan
+  // https://en.wikipedia.org/wiki/Tan_(color)
+  'tan': #d2b48c,
+  'sandy-tan': #fdd9b5, // @new in v0.6.0.
+  'tan-orange': #faa76c, // @new in v0.6.0.
+  'windsor-tan': #ae6838, // @new in v0.6.0.
+  'tuscan-tan': #a67b5b, // @new in v0.6.0.
+
+  // Taupe
+  // https://en.wikipedia.org/wiki/taupe
+  'taupe': #483c32,
+  'light-taupe': #b38b6d, // @new in v0.6.0.
+  'mauve-taupe': #915f6d, // @new in v0.6.0.
+  'rose-taupe': #905d5d, // @new in v0.6.0.
+  'sandy-taupe': #967117, // @new in v0.6.0.
+  'taupe-gray': #8b8589, // @new in v0.6.0.
+  'deep-taupe': #7e5e60, // @new in v0.6.0.
+  'taupe-brown': #674c47, // @new in v0.6.0.
+
+  // Coffee
+  // https://en.wikipedia.org/wiki/Coffee_(color)
+  'coffee': #6f4e37, // @new in v0.6.0.
+  'latte': 	#a67b5b, // @new in v0.6.0. café au lait, also known as coffee and milk or latte.
+  'black-coffee': #4b3621, // @new in v0.6.0. same as cafe-noir.
 );

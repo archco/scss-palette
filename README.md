@@ -19,6 +19,7 @@ bower install scss-palette
 ## Usage
 
 ### Basic
+
 ``` scss
 // Import in your style.scss
 @import 'node_modules/scss-palette/src/palette';

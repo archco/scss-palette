@@ -30,21 +30,28 @@ $shades-of-blue: (
   'duck-blue': #007791, // @new in v0.5.x.
   'dark-blue': #00008b,
   'resolution-blue': #002387,
-  'navy-blue': #000080, // @changed at v0.5.x. 'navy' to 'navy-blue'.
   'midnight-blue': #191970,
   'independence': #4c516d,
-  'space-cadet': #1d2951,
   'fluorescent-blue': #15f4ee,
   'teal': #008080,
   'teal-blue': #367588,
 
   // Navy blue
   // https://en.wikipedia.org/wiki/Navy_blue
-
+  'navy-blue': #000080, // @changed at v0.5.x. 'navy' to 'navy-blue'.
   'crayola-navy-blue': #1974d2, // @new in v0.5.x.
   'peacoat': #2b2e43, // @new in v0.5.x.
   'purple-navy': #4e5180, // @new in v0.5.x.
   'persian-indigo': #32127a, // @new in v0.5.x.
+
+  // Sapphire
+  // https://en.wikipedia.org/wiki/Sapphire_(color)
+  'sapphire': #0F52BA, // @new in v0.6.0
+  'sapphire-blue': #0067A5, // @new in v0.6.0
+  'crayola-sapphire': #2D5DA1, // @new in v0.6.0
+  'bedazzled-blue': #2E5894, // @new in v0.6.0
+  'blue-sapphire': #126180, // @new in v0.6.0
+  'dark-sapphire': #082567, // @new in v0.6.0
 
   // Cadet grey
   // https://en.wikipedia.org/wiki/Cadet_grey
@@ -53,4 +60,5 @@ $shades-of-blue: (
   'cadet-blue': #5f9ea0,
   'star-command-blue': #007bb8, // @new in v0.5.x.
   'cadet': #536872, // @new in v0.5.x.
+  'space-cadet': #1d2951,
 );

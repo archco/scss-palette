@@ -11,9 +11,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "node task/banner.js",
     "build": "npm run sass && npm run json",
-    "sass": "npx node-sass test/test.scss test/test.css",
+    "sass": "node-sass test/test.scss test/test.css",
     "sass:watch": "npm run sass && npm run sass -- --watch",
-    "json": "npx node-sass test/colors.scss test/colors.css",
+    "json": "node-sass test/colors.scss test/colors.css",
     "postjson": "node task/convert-to-json"
   },
   "repository": {

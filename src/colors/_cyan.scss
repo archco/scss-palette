@@ -7,31 +7,65 @@ $shades-of-cyan: (
   'pigment-cyan': #00b7eb, // CMYK
 
   // Variations.
-  'aero-blue': #c9ffe5,
   'aquamarine': #7fffd4,
   'blue-green': #0d98ba,
   'caribbean-current': #006d6f,
-  'celeste': #b2ffff,
-  'cerulean': #007ba7,
   'charleston-green': #232b2b,
   'dark-cyan': #008b8b,
-  'electric-blue': #7df9ff,
   'green-blue': #1164b4,
   'keppel': #3ab09e,
   'light-cyan': #e0ffff,
   'light-sea-green': #20b2aa,
   'midnight-green': #004953,
   'robin-egg-blue': #0cc,
-  'crayola-sky-blue': #80daeb,
   'teal': #008080,
   'tiffany-blue': #81d8d0, // Tiffany & Company
   'turquoise': #40e0d0,
   'verdigris': #43b3ae,
   'viridian': #40826d,
 
+  // Air force blue
+  // https://en.wikipedia.org/wiki/Air_Force_blue
+  'aero-blue': #c9ffe5,
+  'raf-blue': #5d8aa8, // @new in v0.6.0.
+  'usaf-blue': #00308f, // @new in v0.6.0.
+  'usaf-academy-blue': #004f98, // @new in v0.6.0.
+  'aero': #7cb9e8, // @new in v0.6.0.
+  'wild-blue-yonder': #a2add0, // @new in v0.6.0.
+  'air-superiority-blue': #72a0c1, // @new in v0.6.0.
+  'blue-yonder': #5072a7, // @new in v0.6.0.
+
+  // Sky blue
+  // https://en.wikipedia.org/wiki/Sky_blue
+  'celeste': #b2ffff,
+  'sky-blue': #87ceeb, // @new in v0.6.0.
+  'light-sky-blue': #87cefa, // @new in v0.6.0.
+  'crayola-sky-blue': #80daeb,
+  'vivid-sky-blue': #0cf, // @new in v0.6.0.
+  'neon-blue': #00cfff, // @new in v0.6.0.
+  'deep-sky-blue': #00bfff, // @new in v0.6.0.
+  'french-sky-blue': #77b5fe, // @new in v0.6.0.
+  'spanish-sky-blue': #00aae4, // @new in v0.6.0.
+  'dark-sky-blue': #8cbed6, // @new in v0.6.0.
+
+  // Cerulean
+  // https://en.wikipedia.org/wiki/Cerulean
+  'cerulean': #007ba7,
+  'cerulean-blue': #2a52be, // @new in v0.6.0.
+  'pale-cerulean': #98b4d4, // @new in v0.6.0.
+  'bright-cerulean': #1dacd6, // @new in v0.6.0.
+  'cerulean-frost': #6d9bc3, // @new in v0.6.0.
+
+  // Electric blue
+  // https://en.wikipedia.org/wiki/Electric_blue_(color)
+  'electric-blue': #7df9ff,
+  'deep-electric-blue': #2C75FF, // @new in v0.6.0.
+  'iridescent-electric-blue': #3137FD, // @new in v0.6.0.
+  'medium-electric-blue': #035096, // @new in v0.6.0.
+  'dark-electric-blue': #536878, // @new in v0.6.0.
+
   // Turquoise
   // https://en.wikipedia.org/wiki/Turquoise_(color)
-
   'light-turquoise': #afeeee, // @changed 'paleturquoise' to 'light-turquoise'.
   'turquoise-blue': #00ffef, // @new in v0.5.x.
   'medium-turquoise': #48d1cc,
