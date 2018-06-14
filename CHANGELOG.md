@@ -30,6 +30,20 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 - [Add cerulean colors](https://en.wikipedia.org/wiki/Cerulean): `cerulean-blue`, `pale-cerulean`, `bright-cerulean`, `cerulean-frost`.
 - [Add electric blue colors](https://en.wikipedia.org/wiki/Electric_blue_(color)): `deep-electric-blue`, `iridescent-electric-blue`, `medium-electric-blue`, `dark-electric-blue`.
 
+#### Gray
+
+- Changed `dark-gray` to `dark-medium-gray`.
+- [Add blue gary colors](https://en.wikipedia.org/wiki/Blue-gray): `iceberg`, `slate-blue`, `blue-bell`, `steel-blue`, `air-force-blue`, `shadow-blue`, `dark-blue-gray`, `roman-silver`, `rhythm`, `paynes-gray`.
+
+#### Green
+
+- [Add jungle green color](https://en.wikipedia.org/wiki/Jungle_green): `tropical-rainforest`, `amazon`, `deep-jungle-green`, `medium-jungle-green`, `dark-jungle-green`.
+- Add spring green color: `magic-mint`, `cambridge-blue`, `mountain-meadow,` `zomp`.
+
+#### Magenta
+
+- Add color `garnet`.
+
 ## [0.5.1] - 2018-03-04
 
 ### Changed

@@ -64,7 +64,6 @@ $shades-of-green: (
   'forest-green': #228b22,
   'green-earth': #dadd98, // @new in v0.5.x
   'hookers-green': #49796b,
-  'jungle-green': #29ab87,
   'laurel-green': #a9ba9d,
   'light-green': #90ee90,
   'mantis': #74c365,
@@ -77,6 +76,15 @@ $shades-of-green: (
   'shamrock-green': #009e60, // Irish green
   'tea-green': #d0f0c0,
   'teal': #008080,
+
+  // Jungle green
+  // https://en.wikipedia.org/wiki/Jungle_green
+  'jungle-green': #29ab87,
+  'tropical-rainforest': #00755e, // @new in v0.6.0.
+  'amazon': #3b7a57, // @new in v0.6.0.
+  'deep-jungle-green': #004b49, // @new in v0.6.0.
+  'medium-jungle-green': #1c352d, // @new in v0.6.0.
+  'dark-jungle-green': #1a2421, // @new in v0.6.0.
 
   // olive colors
   // @links https://en.wikipedia.org/wiki/Olive_(color)
@@ -107,8 +115,12 @@ $shades-of-green: (
   // spring-green
   // https://en.wikipedia.org/wiki/Spring_green
   'spring-green': #00ff7f,
+  'magic-mint': #AAF0D1, // @new in v0.6.0.
   'medium-spring-green': #00fa9a,
+  'cambridge-blue': #A3C1AD, // @new in v0.6.0.
   'caribbean-green': #0c9, // @new in v0.5.x.
+  'mountain-meadow': #30BA8F, // @new in v0.6.0.
   'mint': #3EB489, // @new in v0.5.x.
   'medium-sea-green': #3cb371,
+  'zomp': #39A78E, // @new in v0.6.0.
 );
