@@ -54,6 +54,21 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 - [Add pink colors](https://en.wikipedia.org/wiki/Rose_(color)): `rose`, `tea-rose`, `rose-bonbon`, `french-rose`, `razzmatazz`, `fuchsia-rose`, `rose-red`, `dogwood-rose`, `raspberry-rose`, `china-rose`, `rose-vale`, `cordovan`, `rose-ebony`, `rosewood`.
 
+#### Red
+
+- [Add scarlet colors](https://en.wikipedia.org/wiki/Scarlet_(color)): `web-scarlet`, `crayola-scarlet`, `frame`, `boston-university-scarlet`.
+- [Add ruby colors](https://en.wikipedia.org/wiki/Ruby_(color)): `rubine-red`, `ruber`, `crayola-ruby`, `ruby-red`, `big-dip-o-ruby`, `antique-ruby`, `deep-ruby`.
+- [Add wine colors](https://en.wikipedia.org/wiki/Wine_(color)): `wine`, `claret`, `burgundy`, `wine-dregs`.
+
+#### White
+
+- Add color `parchment`, `alabaster`.
+
+#### Yellow
+
+- [Add lemon colors](https://en.wikipedia.org/wiki/Lemon_(color)): `lemon-meringue`, `luis-lemon`, `laser-lemon`(same as `unmellow-yellow`), `lemon-yellow`, `bitter-lemon`, `citron`, `lemon-curry`, `deep-lemon`.
+- [Add gold colors](https://en.wikipedia.org/wiki/Gold_(color)): `old-gold`, `golden-poppy`, `pale-gold`, `sunglow`, `harvest-gold`, `vegas-gold`, `satin-sheen-gold`, `golden-brown`.
+
 ## [0.5.1] - 2018-03-04
 
 ### Changed

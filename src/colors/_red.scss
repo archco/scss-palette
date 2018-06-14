@@ -12,12 +12,10 @@ $shades-of-red: (
   'crayola-red': #ee204d, // Crayola
 
   // Variations.
-  'scarlet': #ff2400,
   'imperial-red': #ed2939,
   'indian-red': #cd5c5c,
   'spanish-red': #e60026,
   'carmine': #960018,
-  'ruby': #e0115f,
   'crimson': #dc143c,
   'rusty-red': #da2c43,
   'fire-engine-red': #ce2029,
@@ -36,13 +34,10 @@ $shades-of-red: (
   'cinnabar': #e44d2e,
   'blood-red': #600,
 
-  // Tints of red.
-  'pink': #ffc0cb,
-  'salmon-pink': #ff91a4,
-
   // salmon
   // https://en.wikipedia.org/wiki/Salmon_(color)
   'salmon': #fa8072,
+  'salmon-pink': #ff91a4,
   'light-salmon': #ffa07a,
   'dark-salmon': #e9967a,
 
@@ -51,4 +46,31 @@ $shades-of-red: (
   'coral': #ff7f50,
   'coral-pink': #f88379,
   'light-coral': #f08080,
+
+  // Scarlet
+  // https://en.wikipedia.org/wiki/Scarlet_(color)
+  'scarlet': #ff2400,
+  'web-scarlet': #f30, // @new in v0.6.0.
+  'crayola-scarlet': #fc2847, // @new in v0.6.0.
+  'frame': #e25822, // @new in v0.6.0.
+  'boston-university-scarlet': #c00, // @new in v0.6.0.
+
+  // Ruby
+  // https://en.wikipedia.org/wiki/Ruby_(color)
+  'ruby': #e0115f,
+  'rubine-red': #d10056, // @new in v0.6.0.
+  'ruber': #ce4676, // @new in v0.6.0.
+  'crayola-ruby': #aa4069, // @new in v0.6.0.
+  'ruby-red': #9b111e, // @new in v0.6.0.
+  'big-dip-o-ruby': #9c2542, // @new in v0.6.0.
+  'antique-ruby': #841b2d, // @new in v0.6.0.
+  'deep-ruby': #843f5b, // @new in v0.6.0.
+
+  // Wine
+  // https://en.wikipedia.org/wiki/Wine_(color)
+  'wine': #722f37, // @new in v0.6.0.
+  'champagne': #f7e7ce,
+  'claret': #7f1734, // @new in v0.6.0.
+  'burgundy': #800020, // @new in v0.6.0.
+  'wine-dregs': #673147, // @new in v0.6.0.
 );

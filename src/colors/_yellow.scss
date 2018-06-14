@@ -15,7 +15,6 @@ $shades-of-yellow: (
   'canary-yellow': #ff9,
   'clover-lime': #fce883,
   'unmellow-yellow': #ff6,
-  'lemon': #fdff00,
   'maximum-yellow': #fafa37,
   'mellow-yellow': #f8de7e,
   'royal-yellow': #fada5e,
@@ -31,10 +30,30 @@ $shades-of-yellow: (
   'cream': #ffc,
   'lemon-chiffon': #fffacd,
 
+  // Lemon
+  // https://en.wikipedia.org/wiki/Lemon_(color)
+  'lemon': #fdff00,
+  'lemon-meringue': #f6eabe, // @new in v0.6.0.
+  'luis-lemon': #e9ff36, // @new in v0.6.0.
+  'laser-lemon': #ff6, // same as 'unmellow-yellow'. @new in v0.6.0.
+  'lemon-yellow': #fff44f, // @new in v0.6.0.
+  'bitter-lemon': #cae00d, // @new in v0.6.0.
+  'citron': #9fa91f, // @new in v0.6.0.
+  'lemon-curry': #cca01d, // @new in v0.6.0.
+  'deep-lemon': #f5c71a, // @new in v0.6.0.
+
   // gold
   // https://en.wikipedia.org/wiki/Gold_(color)
-  'metallic-gold': #D4AF37, // @new in v0.5.x.
-  'golden-yellow': #FFDF00, // @new in v0.5.x.
+  'metallic-gold': #d4af37, // @new in v0.5.x.
+  'old-gold': #cfb53b, // @new in v0.6.0.
+  'golden-yellow': #ffdf00, // @new in v0.5.x.
+  'golden-poppy': #fcc200, // @new in v0.6.0.
+  'pale-gold': #e6be8a, // @new in v0.6.0.
+  'sunglow': #fc3, // @new in v0.6.0.
+  'harvest-gold': #da9100, // @new in v0.6.0.
+  'vegas-gold': #c5b358, // @new in v0.6.0.
+  'satin-sheen-gold': #cba135, // @new in v0.6.0.
+  'golden-brown': #996515, // @new in v0.6.0.
 
   // khaki
   // https://en.wikipedia.org/wiki/Khaki
