@@ -71,11 +71,12 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ### Removed
 
-- Removed `noir` in black. use instead `outer-space`.
-- Removed `celtic-blue` in blue. It's removed.
-- Removed `office-green` in green. same as `green`.
-- Removed `shrek` in green. same as `asparagus`.
-- Removed `color-wheel-orange` in orange. same as `orange`.
+- Removed deprecated colors in v0.5.x. #20
+  - Removed `noir` in black. use instead `outer-space`.
+  - Removed `celtic-blue` in blue. It's removed.
+  - Removed `office-green` in green. same as `green`.
+  - Removed `shrek` in green. same as `asparagus`.
+  - Removed `color-wheel-orange` in orange. same as `orange`.
 
 ## [0.5.1] - 2018-03-04
 
