@@ -38,7 +38,6 @@ $shades-of-green: (
   'midnight-green': #004953,
   'msu-green': #18453b, // Michigan State University
   'neon-green': #39ff14,
-  'office-green': #008000, // @deprecated in v0.5.x. same as green.
   'pakistan-green': #060,
   'paris-green': #50c878,
   'persian-green': #00a693,
@@ -49,20 +48,19 @@ $shades-of-green: (
   'sea-green': #2e8b57,
   'sgbus-green': #5d3, // singapore bus color.
   'spanish-green': #009150,
-  'unt-green': #00853e, // @new in v0.5.x. University of North Texas.
+  'unt-green': #00853e, // University of North Texas.
   'up-forest-green': #014421, // University of the Philippines
 
   // Green in nature
   'artichoke': #8f9779,
   'artichoke-green': #4b6f44,
   'asparagus': #87a96b,
-  'shrek': #87a96b, // @deprecated in v0.5.x. use asparagus instead.
   'avocado': #568203,
   'deep-dark-green': #013220,
   'fern': #71bc78,
   'fern-green': #4f7942,
   'forest-green': #228b22,
-  'green-earth': #dadd98, // @new in v0.5.x
+  'green-earth': #dadd98,
   'hookers-green': #49796b,
   'laurel-green': #a9ba9d,
   'light-green': #90ee90,
@@ -97,19 +95,19 @@ $shades-of-green: (
 
   // chartreuse
   // https://en.wikipedia.org/wiki/Chartreuse_(color)
-  'chartreuse-green': #7fff00, // @changed 'chartreuse' to 'chartreuse-green'.
-  'chartreuse-yellow': #dfff00, // @new in v0.5.x.
-  'pear': #d1e231, // @new in v0.5.x.
-  'spring-bud': #a7fc00, // @new in v0.5.x.
+  'chartreuse-green': #7fff00,
+  'chartreuse-yellow': #dfff00,
+  'pear': #d1e231,
+  'spring-bud': #a7fc00,
   'lawn-green': #7cfc00,
-  'pistachio': #93c572, // @new in v0.5.x.
+  'pistachio': #93c572,
   'yellow-green': #9acd32,
-  'kombu-green': #354230, // @new in v0.5.x.
+  'kombu-green': #354230,
 
   // lime
   // https://en.wikipedia.org/wiki/Lime_(color)
-  'lime': #bfff00, // @new in v0.5.x.
-  'x11-lime': #0f0, // @changed 'lime' to 'x11-lime'.
+  'lime': #bfff00,
+  'x11-lime': #0f0,
   'lime-green': #32cd32,
 
   // spring-green
@@ -118,9 +116,9 @@ $shades-of-green: (
   'magic-mint': #aaf0d1, // @new in v0.6.0.
   'medium-spring-green': #00fa9a,
   'cambridge-blue': #a3c1ad, // @new in v0.6.0.
-  'caribbean-green': #0c9, // @new in v0.5.x.
+  'caribbean-green': #0c9,
   'mountain-meadow': #30ba8f, // @new in v0.6.0.
-  'mint': #3eb489, // @new in v0.5.x.
+  'mint': #3eb489,
   'medium-sea-green': #3cb371,
   'zomp': #39a78e, // @new in v0.6.0.
 );

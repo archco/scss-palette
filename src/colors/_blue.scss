@@ -16,18 +16,17 @@ $shades-of-blue: (
   'light-blue': #add8e6,
   'periwinkle': #ccf,
   'powder-blue': #b0e0e6,
-  'ice-blue': #9ff, // @new in v0.5.x.
+  'ice-blue': #9ff,
   'morning-blue': #8da399,
 
   // Variations
   'medium-blue': #0000cd,
-  'celtic-blue': #246bce, // @deprecated in v0.5.x. removed.
   'spanish-blue': #0070bb,
   'liberty': #545aa7,
   'egyptian-blue': #1034a6,
   'ultramarine': #3f00ff,
-  'delft-blue': #1f305e, // @new in v0.5.x.
-  'duck-blue': #007791, // @new in v0.5.x.
+  'delft-blue': #1f305e,
+  'duck-blue': #007791,
   'dark-blue': #00008b,
   'resolution-blue': #002387,
   'midnight-blue': #191970,
@@ -38,11 +37,11 @@ $shades-of-blue: (
 
   // Navy blue
   // https://en.wikipedia.org/wiki/Navy_blue
-  'navy-blue': #000080, // @changed at v0.5.x. 'navy' to 'navy-blue'.
-  'crayola-navy-blue': #1974d2, // @new in v0.5.x.
-  'peacoat': #2b2e43, // @new in v0.5.x.
-  'purple-navy': #4e5180, // @new in v0.5.x.
-  'persian-indigo': #32127a, // @new in v0.5.x.
+  'navy-blue': #000080,
+  'crayola-navy-blue': #1974d2,
+  'peacoat': #2b2e43,
+  'purple-navy': #4e5180,
+  'persian-indigo': #32127a,
 
   // Sapphire
   // https://en.wikipedia.org/wiki/Sapphire_(color)
@@ -57,7 +56,7 @@ $shades-of-blue: (
   // https://en.wikipedia.org/wiki/Cadet_grey
   'cadet-gray': #91a3b0,
   'cadet-blue': #5f9ea0,
-  'star-command-blue': #007bb8, // @new in v0.5.x.
-  'cadet': #536872, // @new in v0.5.x.
+  'star-command-blue': #007bb8,
+  'cadet': #536872,
   'space-cadet': #1d2951,
 );

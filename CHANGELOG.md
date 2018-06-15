@@ -69,6 +69,14 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 - [Add lemon colors](https://en.wikipedia.org/wiki/Lemon_(color)): `lemon-meringue`, `luis-lemon`, `laser-lemon`(same as `unmellow-yellow`), `lemon-yellow`, `bitter-lemon`, `citron`, `lemon-curry`, `deep-lemon`.
 - [Add gold colors](https://en.wikipedia.org/wiki/Gold_(color)): `old-gold`, `golden-poppy`, `pale-gold`, `sunglow`, `harvest-gold`, `vegas-gold`, `satin-sheen-gold`, `golden-brown`.
 
+### Removed
+
+- Removed `noir` in black. use instead `outer-space`.
+- Removed `celtic-blue` in blue. It's removed.
+- Removed `office-green` in green. same as `green`.
+- Removed `shrek` in green. same as `asparagus`.
+- Removed `color-wheel-orange` in orange. same as `orange`.
+
 ## [0.5.1] - 2018-03-04
 
 ### Changed

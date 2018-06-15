@@ -20,7 +20,6 @@ $shades-of-cyan: (
   'robin-egg-blue': #0cc,
   'teal': #008080,
   'tiffany-blue': #81d8d0, // Tiffany & Company
-  'turquoise': #40e0d0,
   'verdigris': #43b3ae,
   'viridian': #40826d,
 
@@ -66,8 +65,9 @@ $shades-of-cyan: (
 
   // Turquoise
   // https://en.wikipedia.org/wiki/Turquoise_(color)
-  'light-turquoise': #afeeee, // @changed 'paleturquoise' to 'light-turquoise'.
-  'turquoise-blue': #00ffef, // @new in v0.5.x.
+  'turquoise': #40e0d0,
+  'light-turquoise': #afeeee,
+  'turquoise-blue': #00ffef,
   'medium-turquoise': #48d1cc,
   'dark-turquoise': #00ced1,
 );
