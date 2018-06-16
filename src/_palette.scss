@@ -11,26 +11,33 @@
 @import 'colors/brown';
 @import 'colors/cyan';
 @import 'colors/pink';
-@import 'colors/indigo';
 @import 'colors/violet';
 @import 'colors/magenta';
 
 $palette-colors: (
+  // Achromatic colors
   'white': $shades-of-white,
   'black': $shades-of-black,
   'gray': $shades-of-gray,
+
+  // Primary colors
   'red': $shades-of-red,
   'green': $shades-of-green,
   'blue': $shades-of-blue,
-  'orange': $shades-of-orange,
+
+  // Secondary colors
   'yellow': $shades-of-yellow,
-  'purple': $shades-of-purple,
-  'brown': $shades-of-brown,
   'cyan': $shades-of-cyan,
-  'pink': $shades-of-pink,
-  'indigo': $shades-of-indigo,
-  'violet': $shades-of-violet,
   'magenta': $shades-of-magenta,
+
+  // Tertiary colors
+  'orange': $shades-of-orange,
+  'purple': $shades-of-purple,
+  'violet': $shades-of-violet,
+
+  // Others
+  'brown': $shades-of-brown,
+  'pink': $shades-of-pink,
 );
 
 $palette: generate-palette();

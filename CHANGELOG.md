@@ -69,6 +69,10 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 - [Add lemon colors](https://en.wikipedia.org/wiki/Lemon_(color)): `lemon-meringue`, `luis-lemon`, `laser-lemon`(same as `unmellow-yellow`), `lemon-yellow`, `bitter-lemon`, `citron`, `lemon-curry`, `deep-lemon`.
 - [Add gold colors](https://en.wikipedia.org/wiki/Gold_(color)): `old-gold`, `golden-poppy`, `pale-gold`, `sunglow`, `harvest-gold`, `vegas-gold`, `satin-sheen-gold`, `golden-brown`.
 
+### Changed
+
+- The "indigo" moves into the "blue". #24
+
 ### Removed
 
 - Removed deprecated colors in v0.5.x. #20
