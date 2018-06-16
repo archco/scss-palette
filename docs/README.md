@@ -10,8 +10,11 @@ Also, It provides useful [Functions](#functions) in SCSS.
 
 ## [Color Topics](color-topics.md)
 
-- [Basic Colors](color-topics.md#basic-colors): black, white, gray, red, green, blue
-- [Additional Colors](color-topics.md#additional-colors): orange, yellow, purple, brown, cyan, pink, indigo, violet, magenta
+- [Achromatic colors](color-topics.md#achromatic-colors): black, white, gray.
+- [Primary colors](color-topics.md#primary-colors): red, green, blue.
+- [Secondary colors](color-topics.md#secondary-colors): yellow, cyan, magenta.
+- [Tertiary colors](color-topics.md#tertiary-colors): orange, violet, purple.
+- [Others](color-topics.md#others): brown, pink.
 
 ## [Functions](functions.md)
 

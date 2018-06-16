@@ -1,6 +1,6 @@
 {
   "name": "scss-palette",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "description": "The color palette for SCSS.",
   "main": "src/_palette.scss",
   "directories": {
