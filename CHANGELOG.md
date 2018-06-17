@@ -9,6 +9,8 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ## [Unreleased]
 
+## [0.6.0] - 2018-06-17
+
 ### Added
 
 #### Blue
@@ -178,7 +180,8 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 - Changed build tool to "npm-scripts".
 
-[Unreleased]: https://github.com/archco/scss-palette/compare/v0.5.1...master
+[Unreleased]: https://github.com/archco/scss-palette/compare/v0.6.0...master
+[0.6.0]: https://github.com/archco/scss-palette/compare/v0.5.1...v0.6.0
 [0.5.1]: https://github.com/archco/scss-palette/compare/v0.5.0...v0.5.1
 [0.5.0]: https://github.com/archco/scss-palette/compare/v0.4.1...v0.5.0
 [0.4.1]: https://github.com/archco/scss-palette/compare/v0.4.0...v0.4.1
