@@ -9,7 +9,7 @@ const dest = path.resolve('test/colors.json');
 // 1. strip comments syntax.
 replace({
   files: target,
-  from: [/(\/\*\!).*/gm, /(\/\*)|(\*\/)/g],
+  from: [/(\/\*!).*/gm, /(\/\*)|(\*\/)/g],
   to: '',
 })
 .then(changedFiles => {
@@ -23,4 +23,4 @@ replace({
 })
 .catch(error => {
   console.error('Error occurred:', error);
-});;
+});
