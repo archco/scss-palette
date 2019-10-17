@@ -1,12 +1,17 @@
 <template>
   <div>
-    <div v-for="[key, colors] of Object.entries(colorList)" :key="key">
+    <div
+      v-for="[key, colors] of Object.entries(colorList)"
+      :key="key"
+    >
       <h2>{{ key }}</h2>
       <div>
-        <div v-for="color of colors"
+        <div
+          v-for="color of colors"
           :key="color.name"
           :class="`box-${color.name}`"
-          :data-color="color.value">
+          :data-color="color.value"
+        >
           {{ color.name }}
         </div>
       </div>
