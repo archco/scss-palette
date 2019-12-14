@@ -5,6 +5,7 @@ $shades-of-black: (
   'black': #000,
 
   // Variations of black.
+  'xiketic': #0c020f,
   'midnight-blue': #191970,
   'dim-gray': #696969,
   'ebony': #555d50,
@@ -16,7 +17,7 @@ $shades-of-black: (
   'black-bean': #3d0c02,
   'black-olive': #3b3c36,
   'onyx': #353839,
-  'phthalo-green': #123524,
+  'phthalo-green': #123524, // @deprecated in v0.7.0
   'jet': #343434,
   'black-leather-jacket': #253529,
   'raisin-black': #242124,

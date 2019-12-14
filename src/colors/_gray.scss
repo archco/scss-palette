@@ -8,13 +8,14 @@ $shades-of-gray: (
   'light-gray': #d3d3d3,
   'silver': #c0c0c0,
   'medium-gray': #bebebe, // half of between light gray and dark gray.
-  'dark-medium-gray': #a9a9a9, // X11: dark gray. @changed in v0.6.0 from 'dark-gray' to 'dark-medium-gray'.
+  'dark-medium-gray': #a9a9a9, // X11: dark gray.
   'spanish-gray': #989898,
   'dim-gray': #696969,
   'davys-gray': #555,
   'jet': #343434,
 
   // off-grays - rgb values are not exactly equal.
+  'xanadu': #738678,
   'platinum': #e5e4e2,
   'ash-gray': #b2beb5,
   'battleship-gray': #848482,
@@ -39,16 +40,16 @@ $shades-of-gray: (
   // Blue gray
   // https://en.wikipedia.org/wiki/Blue-gray
   'blue-gray': #69c,
-  'iceberg': #71a6d2, // @new in v0.6.0.
-  'slate-blue': #6a5acd, // @new in v0.6.0.
-  'blue-bell': #a2a2d0, // @new in v0.6.0.
-  'steel-blue': #4682b4, // @new in v0.6.0.
-  'air-force-blue': #5d8aa8, // same as 'raf-blue'. @new in v0.6.0.
-  'shadow-blue': #778ba5, // @new in v0.6.0.
-  'dark-blue-gray': #669, // @new in v0.6.0.
-  'roman-silver': #838996, // @new in v0.6.0.
-  'rhythm': #777696, // @new in v0.6.0.
-  'paynes-gray': #536878, // @new in v0.6.0.
+  'iceberg': #71a6d2,
+  'slate-blue': #6a5acd,
+  'blue-bell': #a2a2d0,
+  'steel-blue': #4682b4,
+  'air-force-blue': #5d8aa8,
+  'shadow-blue': #778ba5,
+  'dark-blue-gray': #669,
+  'roman-silver': #838996,
+  'rhythm': #777696,
+  'paynes-gray': #536878,
 
   // Slate gray
   // https://en.wikipedia.org/wiki/Slate_gray

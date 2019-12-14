@@ -17,6 +17,7 @@ $shades-of-cyan: (
   'light-cyan': #e0ffff,
   'light-sea-green': #20b2aa,
   'midnight-green': #004953,
+  'pale-cyan': #87d3f8,
   'robin-egg-blue': #0cc,
   'teal': #008080,
   'tiffany-blue': #81d8d0, // Tiffany & Company
@@ -26,42 +27,42 @@ $shades-of-cyan: (
   // Air force blue
   // https://en.wikipedia.org/wiki/Air_Force_blue
   'aero-blue': #c9ffe5,
-  'raf-blue': #5d8aa8, // @new in v0.6.0.
-  'usaf-blue': #00308f, // @new in v0.6.0.
-  'usaf-academy-blue': #004f98, // @new in v0.6.0.
-  'aero': #7cb9e8, // @new in v0.6.0.
-  'wild-blue-yonder': #a2add0, // @new in v0.6.0.
-  'air-superiority-blue': #72a0c1, // @new in v0.6.0.
-  'blue-yonder': #5072a7, // @new in v0.6.0.
+  'raf-blue': #5d8aa8,
+  'usaf-blue': #00308f,
+  'usaf-academy-blue': #004f98,
+  'aero': #7cb9e8,
+  'wild-blue-yonder': #a2add0,
+  'air-superiority-blue': #72a0c1,
+  'blue-yonder': #5072a7,
 
   // Sky blue
   // https://en.wikipedia.org/wiki/Sky_blue
   'celeste': #b2ffff,
-  'sky-blue': #87ceeb, // @new in v0.6.0.
-  'light-sky-blue': #87cefa, // @new in v0.6.0.
+  'sky-blue': #87ceeb,
+  'light-sky-blue': #87cefa,
   'crayola-sky-blue': #80daeb,
-  'vivid-sky-blue': #0cf, // @new in v0.6.0.
-  'neon-blue': #00cfff, // @new in v0.6.0.
-  'deep-sky-blue': #00bfff, // @new in v0.6.0.
-  'french-sky-blue': #77b5fe, // @new in v0.6.0.
-  'spanish-sky-blue': #00aae4, // @new in v0.6.0.
-  'dark-sky-blue': #8cbed6, // @new in v0.6.0.
+  'vivid-sky-blue': #0cf,
+  'neon-blue': #00cfff, // @deprecated in v0.7.0
+  'deep-sky-blue': #00bfff,
+  'french-sky-blue': #77b5fe,
+  'spanish-sky-blue': #00aae4,
+  'dark-sky-blue': #8cbed6,
 
   // Cerulean
   // https://en.wikipedia.org/wiki/Cerulean
   'cerulean': #007ba7,
-  'cerulean-blue': #2a52be, // @new in v0.6.0.
-  'pale-cerulean': #98b4d4, // @new in v0.6.0.
-  'bright-cerulean': #1dacd6, // @new in v0.6.0.
-  'cerulean-frost': #6d9bc3, // @new in v0.6.0.
+  'cerulean-blue': #2a52be,
+  'pale-cerulean': #98b4d4,
+  'bright-cerulean': #1dacd6,
+  'cerulean-frost': #6d9bc3,
 
   // Electric blue
   // https://en.wikipedia.org/wiki/Electric_blue_(color)
   'electric-blue': #7df9ff,
-  'deep-electric-blue': #2c75ff, // @new in v0.6.0.
-  'iridescent-electric-blue': #3137fd, // @new in v0.6.0.
-  'medium-electric-blue': #035096, // @new in v0.6.0.
-  'dark-electric-blue': #536878, // @new in v0.6.0.
+  'deep-electric-blue': #2c75ff,
+  'iridescent-electric-blue': #3137fd,
+  'medium-electric-blue': #035096,
+  'dark-electric-blue': #536878,
 
   // Turquoise
   // https://en.wikipedia.org/wiki/Turquoise_(color)
@@ -70,4 +71,5 @@ $shades-of-cyan: (
   'turquoise-blue': #00ffef,
   'medium-turquoise': #48d1cc,
   'dark-turquoise': #00ced1,
+  'bright-turquoise': #08e8de,
 );

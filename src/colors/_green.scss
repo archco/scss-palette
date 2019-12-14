@@ -11,60 +11,24 @@ $shades-of-green: (
   'munsell-green': #00a877, // Munsell
   'pantone-green': #00ad83, // Pantone
   'crayola-green': #1cac78, // Crayola
-
-  // Variations
-  'army-green': #4b5320,
-  'bottle-green': #006a4e,
   'bright-green': #6f0,
   'bright-mint': #4fffb0,
-  'brunswick-green': #1b4d3e,
-  'cal-poly-pomona-green': #1e4d2b, // Cal Poly Pomona green
-  'castleton-green': #00563b,
-  'celadon': #ace1af,
-  'celadon-green': #2f847c,
-  'dark-pastel-green': #03c03c,
-  'dartmouth-green': #00693e,
-  'emerald': #50c878,
-  'feldgrau': #4d5d53,
-  'go-green': #00ab66,
+  'deep-dark-green': #013220,
   'green-yellow': #adff2f,
   'harlequin': #3fff00,
-  'hunter-green': #355e3b,
-  'india-green': #138808,
-  'islamic-green': #009000,
-  'jade': #00a86b,
-  'kelly-green': #4cbb17,
-  'malachite': #0bda51,
-  'midnight-green': #004953,
-  'msu-green': #18453b, // Michigan State University
-  'neon-green': #39ff14,
-  'pakistan-green': #060,
-  'paris-green': #50c878,
-  'persian-green': #00a693,
-  'rifle-green': #444c38,
-  'russian-green': #679267,
-  'sacramento-state-green': #043927, // California State University, Sacramento
   'screamin-green': #76ff7a,
-  'sea-green': #2e8b57,
-  'sgbus-green': #5d3, // singapore bus color.
-  'spanish-green': #009150,
-  'unt-green': #00853e, // University of North Texas.
-  'up-forest-green': #014421, // University of the Philippines
 
-  // Green in nature
+  // Green in biological nature
   'artichoke': #8f9779,
   'artichoke-green': #4b6f44,
   'asparagus': #87a96b,
   'avocado': #568203,
-  'deep-dark-green': #013220,
   'fern': #71bc78,
   'fern-green': #4f7942,
   'forest-green': #228b22,
-  'green-earth': #dadd98,
-  'hookers-green': #49796b,
   'laurel-green': #a9ba9d,
-  'light-green': #90ee90,
   'mantis': #74c365,
+  'light-green': #90ee90,
   'mint-green': #98fb98,
   'moss-green': #8a9a5b,
   'dark-moss-green': #4a5d23,
@@ -75,14 +39,53 @@ $shades-of-green: (
   'tea-green': #d0f0c0,
   'teal': #008080,
 
+  // non-biological nature
+  'emerald': #50c878,
+  'green-earth': #dadd98,
+  'hookers-green': #49796b,
+  'jade': #00a86b,
+  'malachite': #0bda51,
+  'sea-green': #2e8b57,
+
+  // Others
+  'army-green': #4b5320,
+  'bottle-green': #006a4e,
+  'brunswick-green': #1b4d3e,
+  'cal-poly-pomona-green': #1e4d2b, // @deprecated in v0.7.0
+  'castleton-green': #00563b,
+  'celadon': #ace1af,
+  'celadon-green': #2f847c, // @deprecated in v0.7.0
+  'dark-pastel-green': #03c03c,
+  'dartmouth-green': #00693e,
+  'feldgrau': #4d5d53,
+  'go-green': #00ab66,
+  'gotham-green': #00573f,
+  'hunter-green': #355e3b,
+  'india-green': #138808,
+  'islamic-green': #009000,
+  'kelly-green': #4cbb17,
+  'midnight-green': #004953,
+  'msu-green': #18453b, // Michigan State University
+  'neon-green': #39ff14, // @deprecated in v0.7.0
+  'pakistan-green': #060,
+  'paris-green': #50c878,
+  'persian-green': #00a693,
+  'rifle-green': #444c38,
+  'russian-green': #679267,
+  'sacramento-state-green': #043927, // California State University, Sacramento
+  'sgbus-green': #5d3, // singapore bus color.
+  'spanish-green': #009150,
+  'unt-green': #00853e, // University of North Texas.
+  'up-forest-green': #014421, // University of the Philippines
+
   // Jungle green
   // https://en.wikipedia.org/wiki/Jungle_green
   'jungle-green': #29ab87,
-  'tropical-rainforest': #00755e, // @new in v0.6.0.
-  'amazon': #3b7a57, // @new in v0.6.0.
-  'deep-jungle-green': #004b49, // @new in v0.6.0.
-  'medium-jungle-green': #1c352d, // @new in v0.6.0.
-  'dark-jungle-green': #1a2421, // @new in v0.6.0.
+  'tropical-rainforest': #00755e,
+  'amazon': #3b7a57,
+  'deep-jungle-green': #004b49,
+  'medium-jungle-green': #1c352d,
+  'dark-jungle-green': #1a2421,
 
   // olive colors
   // @links https://en.wikipedia.org/wiki/Olive_(color)
@@ -113,12 +116,12 @@ $shades-of-green: (
   // spring-green
   // https://en.wikipedia.org/wiki/Spring_green
   'spring-green': #00ff7f,
-  'magic-mint': #aaf0d1, // @new in v0.6.0.
+  'magic-mint': #aaf0d1,
   'medium-spring-green': #00fa9a,
-  'cambridge-blue': #a3c1ad, // @new in v0.6.0.
+  'cambridge-blue': #a3c1ad,
   'caribbean-green': #0c9,
-  'mountain-meadow': #30ba8f, // @new in v0.6.0.
+  'mountain-meadow': #30ba8f,
   'mint': #3eb489,
   'medium-sea-green': #3cb371,
-  'zomp': #39a78e, // @new in v0.6.0.
+  'zomp': #39a78e,
 );
