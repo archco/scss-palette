@@ -110,7 +110,7 @@ $palette-brightness-point: 165 !default; // 65%
 // @param  {Color}  $color
 // @param  {Number} $amount 0%-100%
 // @return {Color}
-@function strongen($color, $amount) {
+@function strengthen($color, $amount) {
   @if (color-brightness($color) > $palette-brightness-point) {
     @return lighten($color, $amount);
   } @else {

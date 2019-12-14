@@ -9,6 +9,10 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ## [Unreleased]
 
+### Function
+
+- Rename `strongen` to `strengthen`.
+
 ## [0.6.2] - 2019-10-17
 
 ### Updated
