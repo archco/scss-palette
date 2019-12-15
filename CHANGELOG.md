@@ -9,6 +9,8 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ## [Unreleased]
 
+## [0.7.0] - 2019-12-15
+
 ### Function
 
 - Rename `strongen` to `strengthen`.
@@ -67,6 +69,19 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 - `amber` moved brown to orange.
 - Renamed `x11khaki` -> `x11-khaki`
 - Renamed `darkkhaki` -> `dark-khaki`
+
+### Deprecated
+
+- black
+  - `phthalo-green`
+- cyan
+  - `neon-blue`
+- green
+  - `cal-poly-pomona-green`
+  - `celadon-green`
+  - `neon-green`
+- pink
+  - `dolphin-pink`
 
 ## [0.6.2] - 2019-10-17
 
@@ -245,7 +260,8 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 - Changed build tool to "npm-scripts".
 
-[Unreleased]: https://github.com/archco/scss-palette/compare/v0.6.2...master
+[Unreleased]: https://github.com/archco/scss-palette/compare/v0.7.0...master
+[0.7.0]: https://github.com/archco/scss-palette/compare/v0.6.2...v0.7.0
 [0.6.2]: https://github.com/archco/scss-palette/compare/v0.6.0...v0.6.2
 [0.6.0]: https://github.com/archco/scss-palette/compare/v0.5.1...v0.6.0
 [0.5.1]: https://github.com/archco/scss-palette/compare/v0.5.0...v0.5.1
