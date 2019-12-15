@@ -13,6 +13,61 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 - Rename `strongen` to `strengthen`.
 
+### Added
+
+- Black
+  - `xiketic`
+- Blue
+  - `uranian-blue`
+  - `argentinian-blue`
+  - `ruddy-blue`
+  - `savoy-blue`
+  - `neon-blue`
+  - `imperial-blue`
+- Brown
+  - `walnut-brown`
+  - `wenge`
+- Cyan
+  - `pale-cyan`
+  - `bright-turquoise`
+- Gray
+  - `xanadu`
+- Green
+  - `gotham-green`
+- Magenta
+  - `popstar`
+- Orange
+  - `saffron`
+  - `jasper`
+  - `tigers-eye`
+- Pink
+  - `chilean-pink`
+  - `pale-dogwood`
+  - `persian-rose`
+  - `old-rose`
+- Purple
+  - `languid-lavender`
+  - `lavender-gray`
+  - `soap`
+  - `wisteria`
+- Red
+  - `lust`
+- Yellow
+  - `bright-yellow`
+  - `greenish-yellow`
+  - `asu-gold`
+  - `usc-gold`
+  - `uc-berkeley-gold`
+  - `cal-poly-pomona-gold`
+  - `ucla-gold`
+  - `mu-gold`
+
+### Changed
+
+- `amber` moved brown to orange.
+- Renamed `x11khaki` -> `x11-khaki`
+- Renamed `darkkhaki` -> `dark-khaki`
+
 ## [0.6.2] - 2019-10-17
 
 ### Updated
