@@ -17,52 +17,18 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ### Added
 
-- Black
-  - `xiketic`
-- Blue
-  - `uranian-blue`
-  - `argentinian-blue`
-  - `ruddy-blue`
-  - `savoy-blue`
-  - `neon-blue`
-  - `imperial-blue`
-- Brown
-  - `walnut-brown`
-  - `wenge`
-- Cyan
-  - `pale-cyan`
-  - `bright-turquoise`
-- Gray
-  - `xanadu`
-- Green
-  - `gotham-green`
-- Magenta
-  - `popstar`
-- Orange
-  - `saffron`
-  - `jasper`
-  - `tigers-eye`
-- Pink
-  - `chilean-pink`
-  - `pale-dogwood`
-  - `persian-rose`
-  - `old-rose`
-- Purple
-  - `languid-lavender`
-  - `lavender-gray`
-  - `soap`
-  - `wisteria`
-- Red
-  - `lust`
-- Yellow
-  - `bright-yellow`
-  - `greenish-yellow`
-  - `asu-gold`
-  - `usc-gold`
-  - `uc-berkeley-gold`
-  - `cal-poly-pomona-gold`
-  - `ucla-gold`
-  - `mu-gold`
+- Black - `xiketic`
+- Blue - `uranian-blue` `argentinian-blue` `ruddy-blue` `savoy-blue` `neon-blue` `imperial-blue`
+- Brown - `walnut-brown` `wenge`
+- Cyan - `pale-cyan` `bright-turquoise`
+- Gray - `xanadu`
+- Green - `gotham-green`
+- Magenta - `popstar`
+- Orange - `saffron` `jasper` `tigers-eye`
+- Pink - `chilean-pink` `pale-dogwood` `persian-rose` `old-rose`
+- Purple - `languid-lavender` `lavender-gray` `soap` `wisteria`
+- Red - `lust`
+- Yellow - `bright-yellow` `greenish-yellow` `asu-gold` `usc-gold` `uc-berkeley-gold` `cal-poly-pomona-gold` `ucla-gold` `mu-gold`
 
 ### Changed
 
@@ -72,16 +38,10 @@ also see [Releases](https://github.com/archco/scss-palette/releases) page.
 
 ### Deprecated
 
-- black
-  - `phthalo-green`
-- cyan
-  - `neon-blue`
-- green
-  - `cal-poly-pomona-green`
-  - `celadon-green`
-  - `neon-green`
-- pink
-  - `dolphin-pink`
+- black - `phthalo-green`
+- cyan - `neon-blue`
+- green - `cal-poly-pomona-green` `celadon-green` `neon-green`
+- pink - `dolphin-pink`
 
 ## [0.6.2] - 2019-10-17
 
