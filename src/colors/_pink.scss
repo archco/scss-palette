@@ -29,7 +29,7 @@ $shades-of-pink: (
   'china-pink': #de6fa1,
   'mimi-pink': #ffdae9,
   'tango-pink': #e4717a,
-  'congo-pink': #f88379,
+  'congo-pink': #f88379, // same as coral-pink
   'pastel-pink': #dea5a4,
   'new-york-pink': #d7837f,
   'solid-pink': #893843,
@@ -37,6 +37,8 @@ $shades-of-pink: (
   'queen-pink': #e8ccd7,
   'pink-lavender': #d8b2d1,
   'mountbatten-pink': #997a8d,
+  'chilean-pink': #e8c3ba,
+  'pale-dogwood': #edcdc2,
   'pantone-pink': #d74894, // Pantone
   'mexican-pink': #e4007c,
   'barbie-pink': #da1884,
@@ -47,7 +49,7 @@ $shades-of-pink: (
   'bright-pink': #ff007f,
   'persian-pink': #f77fbe,
   'rose-pink': #f6c,
-  'dolphin-pink': #e4c4cf,
+  'dolphin-pink': #e4c4cf, // @deprecated in v0.7.0
   'light-deep-pink': #ff5ccd,
   'ultra-pink': #ff6fff,
   'shocking-pink': #fc0fc0,
@@ -57,22 +59,24 @@ $shades-of-pink: (
 
   // Rose
   // https://en.wikipedia.org/wiki/Rose_(color)
-  'rose': #ff007f, // same as 'bright-pink'. @new in v0.6.0.
+  'rose': #ff007f, // same as 'bright-pink'.
   'misty-rose': #ffe4e1,
-  'tea-rose': #f4c2c2, // same as 'baby-pink'. @new in v0.6.0.
-  'rose-bonbon': #f9429e, // @new in v0.6.0.
-  'french-rose': #f64a8a, // @new in v0.6.0.
-  'razzmatazz': #e3256b, // @new in v0.6.0.
-  'fuchsia-rose': #c74375, // @new in v0.6.0.
-  'rose-red': #c21e56, // @new in v0.6.0.
-  'dogwood-rose': #d71868, // @new in v0.6.0.
-  'raspberry-rose': #b3446c, // @new in v0.6.0.
-  'china-rose': #a8516e, // @new in v0.6.0.
+  'tea-rose': #f4c2c2, // same as 'baby-pink'.
+  'rose-bonbon': #f9429e,
+  'french-rose': #f64a8a,
+  'razzmatazz': #e3256b,
+  'persian-rose': #fe28a2,
+  'fuchsia-rose': #c74375,
+  'rose-red': #c21e56,
+  'dogwood-rose': #d71868,
+  'raspberry-rose': #b3446c,
+  'china-rose': #a8516e,
   'rose-quartz': #aa98a9,
   'rosy-brown': #bc8f8f,
-  'rose-vale': #ab4e52, // @new in v0.6.0.
-  'cordovan': #893f45, // @new in v0.6.0.
+  'old-rose': #c08081,
+  'rose-vale': #ab4e52,
+  'cordovan': #893f45,
   'rose-taupe': #905d5d,
-  'rose-ebony': #674846, // @new in v0.6.0.
-  'rosewood': #65000b, // @new in v0.6.0.
+  'rose-ebony': #674846,
+  'rosewood': #65000b,
 );
