@@ -1,6 +1,6 @@
 {
   "name": "scss-palette",
-  "version": "0.6.2",
+  "version": "0.7.0",
   "description": "The color palette for SCSS.",
   "main": "src/_palette.scss",
   "directories": {
@@ -17,7 +17,8 @@
     "sass:watch": "npm run sass && npm run sass -- --watch",
     "json": "node-sass test/colors.scss test/colors.css",
     "postjson": "node task/convert-to-json",
-    "example": "webpack --config ./task/webpack.config.js --hide-modules"
+    "example": "webpack --config ./task/webpack.config.js --hide-modules",
+    "example:watch": "npm run example && npm run example -- --watch"
   },
   "repository": {
     "type": "git",
@@ -43,7 +44,7 @@
     "node-sass": "^4.13.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-loader": "^3.0.0",
-    "replace-in-file": "^4.2.0",
+    "replace-in-file": "^5.0.2",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.1",
     "vue": "^2.6.11",

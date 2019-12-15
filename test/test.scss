@@ -42,9 +42,9 @@
   background-color: weaken($_bg-color, 15%);
 }
 
-.test-strongen {
+.test-strengthen {
   $_color: #333;
   $_bg-color: #aaa;
-  color: strongen($_color, 15%);
-  background-color: strongen($_bg-color, 15%);
+  color: strengthen($_color, 15%);
+  background-color: strengthen($_bg-color, 15%);
 }

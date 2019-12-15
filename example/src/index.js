@@ -3,7 +3,7 @@ import ColorIndex from './color-index.vue';
 import pkg from '../../package.json';
 
 /* eslint-disable no-unused-vars */
-const vm = new Vue({
+window.vm = new Vue({
   el: '#app',
   components: { ColorIndex },
   data() {
@@ -11,8 +11,9 @@ const vm = new Vue({
       pkg,
     };
   },
-  template: `<div>
-    <h1>Color Index v${pkg.version}</h1>
+  template: `
+  <div class="container">
+    <h1 class="my-4">Color Index v${pkg.version}</h1>
     <color-index></color-index>
   </div>`,
 });
